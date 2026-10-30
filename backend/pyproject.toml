@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docattentionlens-backend"
+version = "0.1.0"
+description = "FastAPI coordination and durable CPU/GPU workers for DocAttentionLens"
+license = "AGPL-3.0-or-later"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "docattentionlens==0.1.0",
+  "fastapi==0.115.12",
+  "uvicorn==0.34.2",
+  "psycopg[binary]==3.2.9",
+  "pydantic==2.11.4",
+  "Pillow==12.3.0",
+  "numpy==2.3.5",
+  "PyMuPDF==1.26.7",
+]
+
+[project.scripts]
+docattentionlens-migrate = "docattentionlens_api.migrate:main"
+docattentionlens-worker = "docattentionlens_worker.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"docattentionlens_api.migrations" = ["*.sql"]

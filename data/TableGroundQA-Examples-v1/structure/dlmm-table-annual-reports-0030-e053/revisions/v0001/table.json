@@ -1,0 +1,3263 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "table",
+  "table_id": "dlmm-table-annual-reports-0030-e053",
+  "table_revision": "v0001",
+  "document_id": "dlmm-doc-annual-reports-0030",
+  "title": "Fifteen-year cumulative total return, 2004-2019",
+  "size": "medium",
+  "source": {
+    "dataset": "doclayout_mm_rag_examples",
+    "dataset_revision": "2488b8d58dbd4c7fcc8152d9b1ed0c6168a968a22005c2b4e0d4469f65daa62f",
+    "domain": "annual_reports",
+    "document_id": 30,
+    "filename": "NASDAQ_AROW_2019",
+    "page_number": 6,
+    "layout_element_id": 53,
+    "source_table_key": "annual_reports/30/element/53",
+    "normalization_method": "authored_rows_matched_to_pdf_words_v1"
+  },
+  "page_binding": {
+    "status": "page_grounding_verified",
+    "page_id": "dlmm-page-annual-reports-0030-p006",
+    "table_bbox_page": [
+      103.27499707539877,
+      2137.554168701172,
+      1694.9527740478518,
+      2500.372060139974
+    ],
+    "crop_to_page": {
+      "from_frame": "crop_pixels",
+      "to_frame": "page_image_pixels",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          103.0
+        ],
+        [
+          0.0,
+          1.0,
+          2137.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "provenance": "The crop is cut from the page image, so crop pixels plus the crop origin give page pixels."
+  },
+  "bbox": [
+    0.2749970753987725,
+    0.554168701171875,
+    1591.9527740478518,
+    363.3720601399741
+  ],
+  "bbox_frame": "crop_pixels",
+  "assets": [
+    {
+      "asset_id": "dlmm-table-annual-reports-0030-e053-crop",
+      "kind": "table_crop",
+      "path": "pages/table_crops/dlmm-table-annual-reports-0030-e053.png",
+      "sha256": "dbcd8e7b6b4cac130546de63f5a48b4d3e31c21b3d32310f86132b0f9e7414b5",
+      "width": 1592,
+      "height": 364,
+      "frame": {
+        "frame_id": "crop_pixels",
+        "units": "pixels",
+        "origin": "top_left",
+        "bbox_format": "xyxy_continuous_edges"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row_id": "row-0001",
+      "index": 0,
+      "kind": "column_header",
+      "bbox": [
+        0.2749970753987725,
+        0.554168701171875,
+        1591.9527740478518,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "row_id": "row-0002",
+      "index": 1,
+      "kind": "body",
+      "bbox": [
+        0.2749970753987725,
+        46.58599344889353,
+        1591.9527740478518,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "row_id": "row-0003",
+      "index": 2,
+      "kind": "body",
+      "bbox": [
+        0.2749970753987725,
+        139.09965006510447,
+        1591.9527740478518,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "row_id": "row-0004",
+      "index": 3,
+      "kind": "body",
+      "bbox": [
+        0.2749970753987725,
+        204.09954833984375,
+        1591.9527740478518,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "row_id": "row-0005",
+      "index": 4,
+      "kind": "body",
+      "bbox": [
+        0.2749970753987725,
+        269.09957377115916,
+        1591.9527740478518,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    }
+  ],
+  "columns": [
+    {
+      "column_id": "column-0001",
+      "index": 0,
+      "bbox": [
+        0.2749970753987725,
+        0.554168701171875,
+        169.17133839925134,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0002",
+      "index": 1,
+      "bbox": [
+        169.17133839925134,
+        0.554168701171875,
+        252.22727966308594,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0003",
+      "index": 2,
+      "bbox": [
+        252.22727966308594,
+        0.554168701171875,
+        341.8273022969564,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0004",
+      "index": 3,
+      "bbox": [
+        341.8273022969564,
+        0.554168701171875,
+        431.4043572743734,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0005",
+      "index": 4,
+      "bbox": [
+        431.4043572743734,
+        0.554168701171875,
+        520.9849090576172,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0006",
+      "index": 5,
+      "bbox": [
+        520.9849090576172,
+        0.554168701171875,
+        610.5777473449707,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0007",
+      "index": 6,
+      "bbox": [
+        610.5777473449707,
+        0.554168701171875,
+        700.1585057576498,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0008",
+      "index": 7,
+      "bbox": [
+        700.1585057576498,
+        0.554168701171875,
+        789.7434285481771,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0009",
+      "index": 8,
+      "bbox": [
+        789.7434285481771,
+        0.554168701171875,
+        881.4003359476726,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0010",
+      "index": 9,
+      "bbox": [
+        881.4003359476726,
+        0.554168701171875,
+        970.9809989929199,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0011",
+      "index": 10,
+      "bbox": [
+        970.9809989929199,
+        0.554168701171875,
+        1060.5695139567058,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0012",
+      "index": 11,
+      "bbox": [
+        1060.5695139567058,
+        0.554168701171875,
+        1150.1466166178386,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0013",
+      "index": 12,
+      "bbox": [
+        1150.1466166178386,
+        0.554168701171875,
+        1239.7236557006836,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0014",
+      "index": 13,
+      "bbox": [
+        1239.7236557006836,
+        0.554168701171875,
+        1329.3006947835288,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0015",
+      "index": 14,
+      "bbox": [
+        1329.3006947835288,
+        0.554168701171875,
+        1418.8891143798828,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0016",
+      "index": 15,
+      "bbox": [
+        1418.8891143798828,
+        0.554168701171875,
+        1506.3861262003581,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    },
+    {
+      "column_id": "column-0017",
+      "index": 16,
+      "bbox": [
+        1506.3861262003581,
+        0.554168701171875,
+        1591.9527740478518,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels"
+    }
+  ],
+  "cells": [
+    {
+      "cell_id": "cell-00001",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0001"
+      ],
+      "bbox": [
+        0.2749970753987725,
+        0.554168701171875,
+        169.17133839925134,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "",
+        "normalized": "",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        },
+        {
+          "role": "blank",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00002",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0002"
+      ],
+      "bbox": [
+        169.17133839925134,
+        0.554168701171875,
+        252.22727966308594,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2004",
+        "normalized": "2004",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00003",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0003"
+      ],
+      "bbox": [
+        252.22727966308594,
+        0.554168701171875,
+        341.8273022969564,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2005",
+        "normalized": "2005",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00004",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0004"
+      ],
+      "bbox": [
+        341.8273022969564,
+        0.554168701171875,
+        431.4043572743734,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2006",
+        "normalized": "2006",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00005",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0005"
+      ],
+      "bbox": [
+        431.4043572743734,
+        0.554168701171875,
+        520.9849090576172,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2007",
+        "normalized": "2007",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00006",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0006"
+      ],
+      "bbox": [
+        520.9849090576172,
+        0.554168701171875,
+        610.5777473449707,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2008",
+        "normalized": "2008",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00007",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0007"
+      ],
+      "bbox": [
+        610.5777473449707,
+        0.554168701171875,
+        700.1585057576498,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2009",
+        "normalized": "2009",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00008",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0008"
+      ],
+      "bbox": [
+        700.1585057576498,
+        0.554168701171875,
+        789.7434285481771,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2010",
+        "normalized": "2010",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00009",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0009"
+      ],
+      "bbox": [
+        789.7434285481771,
+        0.554168701171875,
+        881.4003359476726,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2011",
+        "normalized": "2011",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00010",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0010"
+      ],
+      "bbox": [
+        881.4003359476726,
+        0.554168701171875,
+        970.9809989929199,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2012",
+        "normalized": "2012",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00011",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0011"
+      ],
+      "bbox": [
+        970.9809989929199,
+        0.554168701171875,
+        1060.5695139567058,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2013",
+        "normalized": "2013",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00012",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0012"
+      ],
+      "bbox": [
+        1060.5695139567058,
+        0.554168701171875,
+        1150.1466166178386,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2014",
+        "normalized": "2014",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00013",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0013"
+      ],
+      "bbox": [
+        1150.1466166178386,
+        0.554168701171875,
+        1239.7236557006836,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2015",
+        "normalized": "2015",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00014",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0014"
+      ],
+      "bbox": [
+        1239.7236557006836,
+        0.554168701171875,
+        1329.3006947835288,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2016",
+        "normalized": "2016",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00015",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0015"
+      ],
+      "bbox": [
+        1329.3006947835288,
+        0.554168701171875,
+        1418.8891143798828,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2017",
+        "normalized": "2017",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00016",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0016"
+      ],
+      "bbox": [
+        1418.8891143798828,
+        0.554168701171875,
+        1506.3861262003581,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2018",
+        "normalized": "2018",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00017",
+      "row_ids": [
+        "row-0001"
+      ],
+      "column_ids": [
+        "column-0017"
+      ],
+      "bbox": [
+        1506.3861262003581,
+        0.554168701171875,
+        1591.9527740478518,
+        46.58599344889353
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "2019",
+        "normalized": "2019",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "column_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00018",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0001"
+      ],
+      "bbox": [
+        0.2749970753987725,
+        46.58599344889353,
+        169.17133839925134,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "Arrow Financial Corporation",
+        "normalized": "Arrow Financial Corporation",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "row_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00019",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0002"
+      ],
+      "bbox": [
+        169.17133839925134,
+        46.58599344889353,
+        252.22727966308594,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "100.00",
+        "normalized": "100.00",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00020",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0003"
+      ],
+      "bbox": [
+        252.22727966308594,
+        46.58599344889353,
+        341.8273022969564,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "89.88",
+        "normalized": "89.88",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00021",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0004"
+      ],
+      "bbox": [
+        341.8273022969564,
+        46.58599344889353,
+        431.4043572743734,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "91.25",
+        "normalized": "91.25",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00022",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0005"
+      ],
+      "bbox": [
+        431.4043572743734,
+        46.58599344889353,
+        520.9849090576172,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "85.41",
+        "normalized": "85.41",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00023",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0006"
+      ],
+      "bbox": [
+        520.9849090576172,
+        46.58599344889353,
+        610.5777473449707,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "104.52",
+        "normalized": "104.52",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00024",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0007"
+      ],
+      "bbox": [
+        610.5777473449707,
+        46.58599344889353,
+        700.1585057576498,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "111.57",
+        "normalized": "111.57",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00025",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0008"
+      ],
+      "bbox": [
+        700.1585057576498,
+        46.58599344889353,
+        789.7434285481771,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "131.92",
+        "normalized": "131.92",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00026",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0009"
+      ],
+      "bbox": [
+        789.7434285481771,
+        46.58599344889353,
+        881.4003359476726,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "120.93",
+        "normalized": "120.93",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00027",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0010"
+      ],
+      "bbox": [
+        881.4003359476726,
+        46.58599344889353,
+        970.9809989929199,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "136.71",
+        "normalized": "136.71",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00028",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0011"
+      ],
+      "bbox": [
+        970.9809989929199,
+        46.58599344889353,
+        1060.5695139567058,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "154.26",
+        "normalized": "154.26",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00029",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0012"
+      ],
+      "bbox": [
+        1060.5695139567058,
+        46.58599344889353,
+        1150.1466166178386,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "169.05",
+        "normalized": "169.05",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00030",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0013"
+      ],
+      "bbox": [
+        1150.1466166178386,
+        46.58599344889353,
+        1239.7236557006836,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "176.74",
+        "normalized": "176.74",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00031",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0014"
+      ],
+      "bbox": [
+        1239.7236557006836,
+        46.58599344889353,
+        1329.3006947835288,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "280.07",
+        "normalized": "280.07",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00032",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0015"
+      ],
+      "bbox": [
+        1329.3006947835288,
+        46.58599344889353,
+        1418.8891143798828,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "249.00",
+        "normalized": "249.00",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00033",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0016"
+      ],
+      "bbox": [
+        1418.8891143798828,
+        46.58599344889353,
+        1506.3861262003581,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "248.87",
+        "normalized": "248.87",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00034",
+      "row_ids": [
+        "row-0002"
+      ],
+      "column_ids": [
+        "column-0017"
+      ],
+      "bbox": [
+        1506.3861262003581,
+        46.58599344889353,
+        1591.9527740478518,
+        139.09965006510447
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "312.06",
+        "normalized": "312.06",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00035",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0001"
+      ],
+      "bbox": [
+        0.2749970753987725,
+        139.09965006510447,
+        169.17133839925134,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "NASDAQ Banks Index",
+        "normalized": "NASDAQ Banks Index",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "row_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00036",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0002"
+      ],
+      "bbox": [
+        169.17133839925134,
+        139.09965006510447,
+        252.22727966308594,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "100.00",
+        "normalized": "100.00",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00037",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0003"
+      ],
+      "bbox": [
+        252.22727966308594,
+        139.09965006510447,
+        341.8273022969564,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "97.68",
+        "normalized": "97.68",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00038",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0004"
+      ],
+      "bbox": [
+        341.8273022969564,
+        139.09965006510447,
+        431.4043572743734,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "109.68",
+        "normalized": "109.68",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00039",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0005"
+      ],
+      "bbox": [
+        431.4043572743734,
+        139.09965006510447,
+        520.9849090576172,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "86.80",
+        "normalized": "86.80",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00040",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0006"
+      ],
+      "bbox": [
+        520.9849090576172,
+        139.09965006510447,
+        610.5777473449707,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "63.28",
+        "normalized": "63.28",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00041",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0007"
+      ],
+      "bbox": [
+        610.5777473449707,
+        139.09965006510447,
+        700.1585057576498,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "52.66",
+        "normalized": "52.66",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00042",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0008"
+      ],
+      "bbox": [
+        700.1585057576498,
+        139.09965006510447,
+        789.7434285481771,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "62.62",
+        "normalized": "62.62",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00043",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0009"
+      ],
+      "bbox": [
+        789.7434285481771,
+        139.09965006510447,
+        881.4003359476726,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "56.01",
+        "normalized": "56.01",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00044",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0010"
+      ],
+      "bbox": [
+        881.4003359476726,
+        139.09965006510447,
+        970.9809989929199,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "67.00",
+        "normalized": "67.00",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00045",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0011"
+      ],
+      "bbox": [
+        970.9809989929199,
+        139.09965006510447,
+        1060.5695139567058,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "95.90",
+        "normalized": "95.90",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00046",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0012"
+      ],
+      "bbox": [
+        1060.5695139567058,
+        139.09965006510447,
+        1150.1466166178386,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "100.77",
+        "normalized": "100.77",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00047",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0013"
+      ],
+      "bbox": [
+        1150.1466166178386,
+        139.09965006510447,
+        1239.7236557006836,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "109.75",
+        "normalized": "109.75",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00048",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0014"
+      ],
+      "bbox": [
+        1239.7236557006836,
+        139.09965006510447,
+        1329.3006947835288,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "148.60",
+        "normalized": "148.60",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00049",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0015"
+      ],
+      "bbox": [
+        1329.3006947835288,
+        139.09965006510447,
+        1418.8891143798828,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "158.31",
+        "normalized": "158.31",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00050",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0016"
+      ],
+      "bbox": [
+        1418.8891143798828,
+        139.09965006510447,
+        1506.3861262003581,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "131.45",
+        "normalized": "131.45",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00051",
+      "row_ids": [
+        "row-0003"
+      ],
+      "column_ids": [
+        "column-0017"
+      ],
+      "bbox": [
+        1506.3861262003581,
+        139.09965006510447,
+        1591.9527740478518,
+        204.09954833984375
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "165.25",
+        "normalized": "165.25",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00052",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0001"
+      ],
+      "bbox": [
+        0.2749970753987725,
+        204.09954833984375,
+        169.17133839925134,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "Russell 2000 Index",
+        "normalized": "Russell 2000 Index",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "row_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00053",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0002"
+      ],
+      "bbox": [
+        169.17133839925134,
+        204.09954833984375,
+        252.22727966308594,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "100.00",
+        "normalized": "100.00",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00054",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0003"
+      ],
+      "bbox": [
+        252.22727966308594,
+        204.09954833984375,
+        341.8273022969564,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "104.51",
+        "normalized": "104.51",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00055",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0004"
+      ],
+      "bbox": [
+        341.8273022969564,
+        204.09954833984375,
+        431.4043572743734,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "123.71",
+        "normalized": "123.71",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00056",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0005"
+      ],
+      "bbox": [
+        431.4043572743734,
+        204.09954833984375,
+        520.9849090576172,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "121.77",
+        "normalized": "121.77",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00057",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0006"
+      ],
+      "bbox": [
+        520.9849090576172,
+        204.09954833984375,
+        610.5777473449707,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "80.62",
+        "normalized": "80.62",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00058",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0007"
+      ],
+      "bbox": [
+        610.5777473449707,
+        204.09954833984375,
+        700.1585057576498,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "102.53",
+        "normalized": "102.53",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00059",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0008"
+      ],
+      "bbox": [
+        700.1585057576498,
+        204.09954833984375,
+        789.7434285481771,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "130.06",
+        "normalized": "130.06",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00060",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0009"
+      ],
+      "bbox": [
+        789.7434285481771,
+        204.09954833984375,
+        881.4003359476726,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "124.62",
+        "normalized": "124.62",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00061",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0010"
+      ],
+      "bbox": [
+        881.4003359476726,
+        204.09954833984375,
+        970.9809989929199,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "145.00",
+        "normalized": "145.00",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00062",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0011"
+      ],
+      "bbox": [
+        970.9809989929199,
+        204.09954833984375,
+        1060.5695139567058,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "201.28",
+        "normalized": "201.28",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00063",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0012"
+      ],
+      "bbox": [
+        1060.5695139567058,
+        204.09954833984375,
+        1150.1466166178386,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "211.13",
+        "normalized": "211.13",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00064",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0013"
+      ],
+      "bbox": [
+        1150.1466166178386,
+        204.09954833984375,
+        1239.7236557006836,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "201.81",
+        "normalized": "201.81",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00065",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0014"
+      ],
+      "bbox": [
+        1239.7236557006836,
+        204.09954833984375,
+        1329.3006947835288,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "244.82",
+        "normalized": "244.82",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00066",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0015"
+      ],
+      "bbox": [
+        1329.3006947835288,
+        204.09954833984375,
+        1418.8891143798828,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "280.69",
+        "normalized": "280.69",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00067",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0016"
+      ],
+      "bbox": [
+        1418.8891143798828,
+        204.09954833984375,
+        1506.3861262003581,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "249.78",
+        "normalized": "249.78",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00068",
+      "row_ids": [
+        "row-0004"
+      ],
+      "column_ids": [
+        "column-0017"
+      ],
+      "bbox": [
+        1506.3861262003581,
+        204.09954833984375,
+        1591.9527740478518,
+        269.09957377115916
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "313.54",
+        "normalized": "313.54",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00069",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0001"
+      ],
+      "bbox": [
+        0.2749970753987725,
+        269.09957377115916,
+        169.17133839925134,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "Zacks $1B-$5B Bank Assets Index",
+        "normalized": "Zacks $1B-$5B Bank Assets Index",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "row_header",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00070",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0002"
+      ],
+      "bbox": [
+        169.17133839925134,
+        269.09957377115916,
+        252.22727966308594,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "100.00",
+        "normalized": "100.00",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00071",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0003"
+      ],
+      "bbox": [
+        252.22727966308594,
+        269.09957377115916,
+        341.8273022969564,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "98.79",
+        "normalized": "98.79",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00072",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0004"
+      ],
+      "bbox": [
+        341.8273022969564,
+        269.09957377115916,
+        431.4043572743734,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "111.96",
+        "normalized": "111.96",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00073",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0005"
+      ],
+      "bbox": [
+        431.4043572743734,
+        269.09957377115916,
+        520.9849090576172,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "95.27",
+        "normalized": "95.27",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00074",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0006"
+      ],
+      "bbox": [
+        520.9849090576172,
+        269.09957377115916,
+        610.5777473449707,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "76.13",
+        "normalized": "76.13",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00075",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0007"
+      ],
+      "bbox": [
+        610.5777473449707,
+        269.09957377115916,
+        700.1585057576498,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "66.49",
+        "normalized": "66.49",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00076",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0008"
+      ],
+      "bbox": [
+        700.1585057576498,
+        269.09957377115916,
+        789.7434285481771,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "74.17",
+        "normalized": "74.17",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00077",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0009"
+      ],
+      "bbox": [
+        789.7434285481771,
+        269.09957377115916,
+        881.4003359476726,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "72.08",
+        "normalized": "72.08",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00078",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0010"
+      ],
+      "bbox": [
+        881.4003359476726,
+        269.09957377115916,
+        970.9809989929199,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "84.55",
+        "normalized": "84.55",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00079",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0011"
+      ],
+      "bbox": [
+        970.9809989929199,
+        269.09957377115916,
+        1060.5695139567058,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "109.61",
+        "normalized": "109.61",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00080",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0012"
+      ],
+      "bbox": [
+        1060.5695139567058,
+        269.09957377115916,
+        1150.1466166178386,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "118.73",
+        "normalized": "118.73",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00081",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0013"
+      ],
+      "bbox": [
+        1150.1466166178386,
+        269.09957377115916,
+        1239.7236557006836,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "128.30",
+        "normalized": "128.30",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00082",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0014"
+      ],
+      "bbox": [
+        1239.7236557006836,
+        269.09957377115916,
+        1329.3006947835288,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "177.00",
+        "normalized": "177.00",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00083",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0015"
+      ],
+      "bbox": [
+        1329.3006947835288,
+        269.09957377115916,
+        1418.8891143798828,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "192.02",
+        "normalized": "192.02",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00084",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0016"
+      ],
+      "bbox": [
+        1418.8891143798828,
+        269.09957377115916,
+        1506.3861262003581,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "170.48",
+        "normalized": "170.48",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    },
+    {
+      "cell_id": "cell-00085",
+      "row_ids": [
+        "row-0005"
+      ],
+      "column_ids": [
+        "column-0017"
+      ],
+      "bbox": [
+        1506.3861262003581,
+        269.09957377115916,
+        1591.9527740478518,
+        363.3720601399741
+      ],
+      "bbox_frame": "crop_pixels",
+      "geometry_method": "row-column intersection",
+      "text": {
+        "raw": "202.41",
+        "normalized": "202.41",
+        "normalization_policy": "whitespace_v1",
+        "method": "assistant_visual_read_matched_to_pdf_text",
+        "status": "unreviewed",
+        "reviewer_id": null
+      },
+      "roles": [
+        {
+          "role": "data",
+          "method": "assistant_visual_interpretation",
+          "status": "proposed",
+          "reviewer_id": null
+        }
+      ]
+    }
+  ],
+  "header_links": [
+    {
+      "target_cell_id": "cell-00024",
+      "row_header_path": [
+        "cell-00018"
+      ],
+      "column_header_path": [
+        "cell-00007"
+      ],
+      "support_cell_ids": [],
+      "method": "assistant_visual_interpretation",
+      "status": "proposed",
+      "reviewer_id": null
+    },
+    {
+      "target_cell_id": "cell-00041",
+      "row_header_path": [
+        "cell-00035"
+      ],
+      "column_header_path": [
+        "cell-00007"
+      ],
+      "support_cell_ids": [],
+      "method": "assistant_visual_interpretation",
+      "status": "proposed",
+      "reviewer_id": null
+    },
+    {
+      "target_cell_id": "cell-00062",
+      "row_header_path": [
+        "cell-00052"
+      ],
+      "column_header_path": [
+        "cell-00011"
+      ],
+      "support_cell_ids": [],
+      "method": "assistant_visual_interpretation",
+      "status": "proposed",
+      "reviewer_id": null
+    },
+    {
+      "target_cell_id": "cell-00074",
+      "row_header_path": [
+        "cell-00069"
+      ],
+      "column_header_path": [
+        "cell-00006"
+      ],
+      "support_cell_ids": [],
+      "method": "assistant_visual_interpretation",
+      "status": "proposed",
+      "reviewer_id": null
+    },
+    {
+      "target_cell_id": "cell-00031",
+      "row_header_path": [
+        "cell-00018"
+      ],
+      "column_header_path": [
+        "cell-00014"
+      ],
+      "support_cell_ids": [],
+      "method": "assistant_visual_interpretation",
+      "status": "proposed",
+      "reviewer_id": null
+    },
+    {
+      "target_cell_id": "cell-00043",
+      "row_header_path": [
+        "cell-00035"
+      ],
+      "column_header_path": [
+        "cell-00009"
+      ],
+      "support_cell_ids": [],
+      "method": "assistant_visual_interpretation",
+      "status": "proposed",
+      "reviewer_id": null
+    },
+    {
+      "target_cell_id": "cell-00068",
+      "row_header_path": [
+        "cell-00052"
+      ],
+      "column_header_path": [
+        "cell-00017"
+      ],
+      "support_cell_ids": [],
+      "method": "assistant_visual_interpretation",
+      "status": "proposed",
+      "reviewer_id": null
+    },
+    {
+      "target_cell_id": "cell-00071",
+      "row_header_path": [
+        "cell-00069"
+      ],
+      "column_header_path": [
+        "cell-00003"
+      ],
+      "support_cell_ids": [],
+      "method": "assistant_visual_interpretation",
+      "status": "proposed",
+      "reviewer_id": null
+    }
+  ],
+  "quality": {
+    "status": "needs_review",
+    "publishable": false,
+    "issues": [
+      {
+        "issue_id": "dlmm-table-annual-reports-0030-e053-review",
+        "code": "annotation_not_independently_reviewed",
+        "severity": "advisory",
+        "affected_cell_ids": [],
+        "detail": "Rows, columns, spans, header roles and questions are AI generated. Every cell text matches the PDF text layer; geometry comes from the matched words. Independent human review is pending."
+      }
+    ]
+  },
+  "revision_provenance": {
+    "authored_on": "2026-10-29",
+    "authoring": "authoring/tables.json",
+    "builder": "scripts/build_examples.py"
+  }
+}

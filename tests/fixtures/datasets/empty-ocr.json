@@ -1,0 +1,69 @@
+{
+  "element": {
+    "key": "element_f8c17540c26e571083883bd0d27959da11e4cbdb49ca77248fc6d257be0879e7",
+    "element_id": "element_f8c17540c26e571083883bd0d27959da11e4cbdb49ca77248fc6d257be0879e7",
+    "page_id": "page_54c89d01c632937636732804645d3af8cf3fb7e058e6e31c49c6b7b6cc38f527",
+    "document_id": "document_5200d6b95a0affbc53f85f31b9404b730376549e52cffe810a51684d46d72fd9",
+    "ref": {
+      "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+      "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+      "domain": "annual_reports",
+      "document_id": 1,
+      "page_number": 8,
+      "element_id": 106,
+      "question_id": null
+    },
+    "native_id": 106,
+    "page_number": 8,
+    "element_type": "figure",
+    "element_category": "IMAGE",
+    "bbox": {
+      "x1": 0,
+      "y1": 590,
+      "x2": 2478,
+      "y2": 1627
+    },
+    "level": 2,
+    "reading_order": 2,
+    "ocr": {
+      "status": "empty",
+      "text": ""
+    },
+    "geometry_flags": [],
+    "display_bbox": {
+      "x1": 0,
+      "y1": 590,
+      "x2": 2478,
+      "y2": 1627
+    },
+    "display_geometry_policy": "raw"
+  },
+  "page": {
+    "key": "page_54c89d01c632937636732804645d3af8cf3fb7e058e6e31c49c6b7b6cc38f527",
+    "page_id": "page_54c89d01c632937636732804645d3af8cf3fb7e058e6e31c49c6b7b6cc38f527",
+    "document_id": "document_5200d6b95a0affbc53f85f31b9404b730376549e52cffe810a51684d46d72fd9",
+    "ref": {
+      "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+      "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+      "domain": "annual_reports",
+      "document_id": 1,
+      "page_number": 8,
+      "element_id": null,
+      "question_id": null
+    },
+    "page_number": 8,
+    "width": 2480,
+    "height": 3509,
+    "image_sha256": "e69315353d718b38a21a3b92b529102377132d2aecc7f2bd90d95c3ea3a7fbe1",
+    "image_url": "/api/v1/pages/page_54c89d01c632937636732804645d3af8cf3fb7e058e6e31c49c6b7b6cc38f527/image",
+    "coordinate_space": {
+      "units": "source_image_pixels",
+      "origin": "top_left",
+      "bbox_format": "x1_y1_x2_y2",
+      "x_direction": "right",
+      "y_direction": "down"
+    },
+    "orientation": "portrait",
+    "spread_status": "not_annotated"
+  }
+}

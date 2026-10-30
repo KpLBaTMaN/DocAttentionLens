@@ -1,0 +1,417 @@
+{
+  "page": {
+    "key": "page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b",
+    "page_id": "page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b",
+    "document_id": "document_4f13fe24f9dd126d7e8f6b5f982e21226bc78bc67894d0499a4b3ccc2156a881",
+    "ref": {
+      "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+      "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+      "domain": "annual_reports",
+      "document_id": 2,
+      "page_number": 2,
+      "element_id": null,
+      "question_id": null
+    },
+    "page_number": 2,
+    "width": 4725,
+    "height": 2953,
+    "image_sha256": "a7358b1265e5ffd5760232c7230609c6951041ebf72a5954c98eb82738eae4dc",
+    "image_url": "/api/v1/pages/page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b/image",
+    "coordinate_space": {
+      "units": "source_image_pixels",
+      "origin": "top_left",
+      "bbox_format": "x1_y1_x2_y2",
+      "x_direction": "right",
+      "y_direction": "down"
+    },
+    "orientation": "landscape",
+    "spread_status": "not_annotated"
+  },
+  "document": {
+    "key": "document_4f13fe24f9dd126d7e8f6b5f982e21226bc78bc67894d0499a4b3ccc2156a881",
+    "document_id": "document_4f13fe24f9dd126d7e8f6b5f982e21226bc78bc67894d0499a4b3ccc2156a881",
+    "ref": {
+      "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+      "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+      "domain": "annual_reports",
+      "document_id": 2,
+      "page_number": null,
+      "element_id": null,
+      "question_id": null
+    },
+    "native_id": 2,
+    "filename": "air-partner_2008",
+    "total_pages": 45,
+    "page_ids": [
+      "page_c0a20986b0242b37df394ac484940cd105655384c38c25b8b2fe8980a7b8197d",
+      "page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b",
+      "page_53ac14b1bcc8df81ee5f65bcbe1cef49b2eb65a8a9878a3c96f5dc8290c525f8",
+      "page_e8c7946ddc4398d954ab0df911a9ede70bcd4c3eda559caefdaa476995cee899",
+      "page_16d7edd7481f071ac88e4ee2e95c1747cf542472a5e19b4b6e9b57d6d1042f3b",
+      "page_02968da265ac665dbcc5db5db80fca8d70fe7f4896e626bd4a2aacb986ccd2ff",
+      "page_6d19ee4ec132df502e321d9af89c7e589ac6028ee735b09d62468095964e4ab1",
+      "page_ac9c6769ebd32d0ba2197c883ba2d1edac2dddfab9b071fc7f6355135a320c00",
+      "page_062858dbb8497f983eb2e9abead1196cba1283327f514b41e7960dfc9a4353ac",
+      "page_771c439ae1694ee41ed44f9c8a866cd31306238862590f624d2d46ac75f6b25c",
+      "page_4a7380e05236386096db87f84617ea058187ad82502702cafc65fe3fbabb11ce",
+      "page_fc72d8e20dc1f186d8996adf2d951259e1e1a288b23cbb7d4f27e5b3c5cc17a7",
+      "page_fc997e1e5b656acdd61aa31cc0afd015dc9c58223c7f7ee7f51775b8a6e94c4a",
+      "page_39721a019265dbefba4c43fba9a6a295c94d9132ab4720fb8da0d1b7cdb02b09",
+      "page_40ceaff86e24917cd0db9030e0c5ef548a60275388f50b885c6c2c924bb4caa4",
+      "page_6c67568fb8799e9551c584dcfc6dd71a68f7af832337d67e46f7a7dc04fce08d",
+      "page_e895fe4be309333c129b3611107f0c4e920ec4089e94aad068f0966001acebb1",
+      "page_0b7475b724541b10f87cc3f9857b02a9d827513eb7adbc6f0b701131014e099e",
+      "page_de8f601dde1e74081e9fc5ff1a139bc00189be7cf65f608f2509559ec14a8d95",
+      "page_67f4e7c671a75653efadc8f440ebc3a2ea605a0c40ef279150af24597c8d7a0d",
+      "page_688b5757034b71817a0564f18610c9ba188241c98705c4134bdb07cb232f6800",
+      "page_9739452cc723c1d0dc668e349f864dd099b8a6187555fe17db06e39f3da5ba7e",
+      "page_67857bd33820dcf23a951ecf8294ce7115bf4b6c8d44fe4d2a72d4e0c8c86a81",
+      "page_0ab7b7cfda5540e71472a54e3df4fdba9b474b937bd85a1833da91b0c0e64c62",
+      "page_ccde8fdee59ec58ac29393b4e6e284e84f5e8bc8551097308a4884dd10946e01",
+      "page_56168fd4a45cdeb7d1fe04ed7ffac0e26faddf48a142a441c6dc34ccda6d5c3c",
+      "page_8a98c6817419bcf4143ac08e6b526e32e3715fbd1a31c0a8966284d2b4a6f201",
+      "page_70e8c5a70a922c7b1a2c6e784e231207e35cc94c3f3ea530ce7d3c9811b53aee",
+      "page_6b110c1182b8da8c493ddd40df7f7838bc214cfba0e4deace7fbab518b9d2969",
+      "page_ea9151b9f61287645e2f91b877a0291b4f44c07123998a97339605886d993bf5",
+      "page_00f366f1a9c710925a0db8ed215e2373133843f5c4f799914d0e782f210ece7f",
+      "page_c2b0e73b38f98e81a41b3f1dfd599645563248b648c1cd4dae355ceee34c0d8c",
+      "page_37312b1a5f7e3c3837b192ae59443aa78d35b5370daaab2537bb425789eb4bdb",
+      "page_5964c12a382ae3cba27e25fb1a1f5649bf8bc1ac2b362e7e6671db8aedd62343",
+      "page_199199f8106296eed18ac83f2a3fc15d6994a28fff671b74de46d892902ca28b",
+      "page_0aec20d3810e1494258dc2d15bf5e5db13a8c2635e9d74a5bfb9db5f7bda1520",
+      "page_ea66517e35f896bea4dd2d934154b9600e25c790113f0bf113c577a5c85bc57b",
+      "page_e58e180b1ba61397e14743b1200aca23690944c5b37a0254c224a5ba15fd14bb",
+      "page_599b89fc393ea0330dff4ce8fcf19656526967ea31f891bd83468b69b3527059",
+      "page_ab3474e765bff9468833976aeb1657f103a60bef59d3fe92c334ad39a8c1610a",
+      "page_b39f0c7f8696e69eef4eddcf81f255a6edcd53274f5effdda02071bf6bafa944",
+      "page_b3a369e52511d1c5a3976b749a9b8cc1014482c2fc3fafb6d56ca619d31a933b",
+      "page_fabc348a05e65b4422c0c65e9a64f1b013b7ad3570aa663343fcbcd70474e3ca",
+      "page_72cc014c28f32529281d119dad6c22a15947ba80285579d197ddc4bde130054b",
+      "page_0b7049b6276b970d544237cf5e95335b658e5fcc7317486139f8e9df95c65389"
+    ],
+    "question_count": 26,
+    "element_count": 1043,
+    "annotation_version": "80c473282996104ced89b6ee0a4b0fcae7e9f98a100d4f1f8ad246bfe2869c7f",
+    "source_pdf_sha256": "b2c6a84073dacdd741e9f8412c98802bd9bd0c99c892ca605beec13fc6f5a5c9",
+    "ocr_model": "glm-ocr",
+    "ocr_status": "complete"
+  },
+  "elements": {
+    "items": [
+      {
+        "key": "element_16d7edd7481f071ac88e4ee2e95c1747cf542472a5e19b4b6e9b57d6d1042f3b",
+        "element_id": "element_16d7edd7481f071ac88e4ee2e95c1747cf542472a5e19b4b6e9b57d6d1042f3b",
+        "page_id": "page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b",
+        "document_id": "document_4f13fe24f9dd126d7e8f6b5f982e21226bc78bc67894d0499a4b3ccc2156a881",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 2,
+          "page_number": 2,
+          "element_id": 5,
+          "question_id": null
+        },
+        "native_id": 5,
+        "page_number": 2,
+        "element_type": "heading",
+        "element_category": "TEXT",
+        "bbox": {
+          "x1": 91,
+          "y1": 1489,
+          "x2": 371,
+          "y2": 1558
+        },
+        "level": 2,
+        "reading_order": 1,
+        "ocr": {
+          "status": "present",
+          "text": "Contents"
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 91,
+          "y1": 1489,
+          "x2": 371,
+          "y2": 1558
+        },
+        "display_geometry_policy": "raw"
+      },
+      {
+        "key": "element_02968da265ac665dbcc5db5db80fca8d70fe7f4896e626bd4a2aacb986ccd2ff",
+        "element_id": "element_02968da265ac665dbcc5db5db80fca8d70fe7f4896e626bd4a2aacb986ccd2ff",
+        "page_id": "page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b",
+        "document_id": "document_4f13fe24f9dd126d7e8f6b5f982e21226bc78bc67894d0499a4b3ccc2156a881",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 2,
+          "page_number": 2,
+          "element_id": 6,
+          "question_id": null
+        },
+        "native_id": 6,
+        "page_number": 2,
+        "element_type": "table",
+        "element_category": "TABLE",
+        "bbox": {
+          "x1": 88,
+          "y1": 1560,
+          "x2": 1360,
+          "y2": 2816
+        },
+        "level": 2,
+        "reading_order": 2,
+        "ocr": {
+          "status": "present",
+          "text": "<table border=\"1\"><tr><td>02</td><td>Financial highlights</td></tr><tr><td>04</td><td>The business model, the global market and the growth drivers</td></tr><tr><td>08</td><td>A diversified business</td></tr><tr><td>10</td><td>Chairman&#x27;s Statement</td></tr><tr><td>14</td><td>Chief Executive&#x27;s Review</td></tr><tr><td>21</td><td>Take a closer look</td></tr><tr><td>33</td><td>Directors and Senior Management</td></tr><tr><td>36</td><td>Directors&#x27; Report</td></tr><tr><td>41</td><td>Directors&#x27; Remuneration Report</td></tr><tr><td>44</td><td>Corporate Governance Statement</td></tr><tr><td>48</td><td>Independent Auditors&#x27; Report</td></tr><tr><td>50</td><td>Financial Statements</td></tr><tr><td>78</td><td>Notice of Annual General Meeting</td></tr><tr><td>81</td><td>Explanatory notes of principal changes to the Company&#x27;s Articles of Association</td></tr><tr><td>84</td><td>Advisors</td></tr></table>"
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 88,
+          "y1": 1560,
+          "x2": 1360,
+          "y2": 2816
+        },
+        "display_geometry_policy": "raw"
+      },
+      {
+        "key": "element_6d19ee4ec132df502e321d9af89c7e589ac6028ee735b09d62468095964e4ab1",
+        "element_id": "element_6d19ee4ec132df502e321d9af89c7e589ac6028ee735b09d62468095964e4ab1",
+        "page_id": "page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b",
+        "document_id": "document_4f13fe24f9dd126d7e8f6b5f982e21226bc78bc67894d0499a4b3ccc2156a881",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 2,
+          "page_number": 2,
+          "element_id": 7,
+          "question_id": null
+        },
+        "native_id": 7,
+        "page_number": 2,
+        "element_type": "figure",
+        "element_category": "IMAGE",
+        "bbox": {
+          "x1": 2540,
+          "y1": 80,
+          "x2": 2740,
+          "y2": 336
+        },
+        "level": 2,
+        "reading_order": 3,
+        "ocr": {
+          "status": "present",
+          "text": "By Appointment to\nHer Majesty The Queen\nSupplier of Aircraft Charter"
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 2540,
+          "y1": 80,
+          "x2": 2740,
+          "y2": 336
+        },
+        "display_geometry_policy": "raw"
+      },
+      {
+        "key": "element_ac9c6769ebd32d0ba2197c883ba2d1edac2dddfab9b071fc7f6355135a320c00",
+        "element_id": "element_ac9c6769ebd32d0ba2197c883ba2d1edac2dddfab9b071fc7f6355135a320c00",
+        "page_id": "page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b",
+        "document_id": "document_4f13fe24f9dd126d7e8f6b5f982e21226bc78bc67894d0499a4b3ccc2156a881",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 2,
+          "page_number": 2,
+          "element_id": 8,
+          "question_id": null
+        },
+        "native_id": 8,
+        "page_number": 2,
+        "element_type": "text",
+        "element_category": "TEXT",
+        "bbox": {
+          "x1": 2548,
+          "y1": 1489,
+          "x2": 4496,
+          "y2": 1747
+        },
+        "level": 2,
+        "reading_order": 4,
+        "ocr": {
+          "status": "present",
+          "text": "Air Partner is a world-class company, providing every type of aircraft, for every conceivable mission, in every part of the planet."
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 2548,
+          "y1": 1489,
+          "x2": 4496,
+          "y2": 1747
+        },
+        "display_geometry_policy": "raw"
+      },
+      {
+        "key": "element_062858dbb8497f983eb2e9abead1196cba1283327f514b41e7960dfc9a4353ac",
+        "element_id": "element_062858dbb8497f983eb2e9abead1196cba1283327f514b41e7960dfc9a4353ac",
+        "page_id": "page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b",
+        "document_id": "document_4f13fe24f9dd126d7e8f6b5f982e21226bc78bc67894d0499a4b3ccc2156a881",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 2,
+          "page_number": 2,
+          "element_id": 9,
+          "question_id": null
+        },
+        "native_id": 9,
+        "page_number": 2,
+        "element_type": "text",
+        "element_category": "TEXT",
+        "bbox": {
+          "x1": 2550,
+          "y1": 1810,
+          "x2": 3748,
+          "y2": 1898
+        },
+        "level": 2,
+        "reading_order": 5,
+        "ocr": {
+          "status": "present",
+          "text": "No other company does what we do."
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 2550,
+          "y1": 1810,
+          "x2": 3748,
+          "y2": 1898
+        },
+        "display_geometry_policy": "raw"
+      },
+      {
+        "key": "element_771c439ae1694ee41ed44f9c8a866cd31306238862590f624d2d46ac75f6b25c",
+        "element_id": "element_771c439ae1694ee41ed44f9c8a866cd31306238862590f624d2d46ac75f6b25c",
+        "page_id": "page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b",
+        "document_id": "document_4f13fe24f9dd126d7e8f6b5f982e21226bc78bc67894d0499a4b3ccc2156a881",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 2,
+          "page_number": 2,
+          "element_id": 10,
+          "question_id": null
+        },
+        "native_id": 10,
+        "page_number": 2,
+        "element_type": "text",
+        "element_category": "TEXT",
+        "bbox": {
+          "x1": 2552,
+          "y1": 1963,
+          "x2": 4349,
+          "y2": 2138
+        },
+        "level": 2,
+        "reading_order": 6,
+        "ocr": {
+          "status": "present",
+          "text": "Today, we provide a broader range of services, across more sectors and geographies than ever before."
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 2552,
+          "y1": 1963,
+          "x2": 4349,
+          "y2": 2138
+        },
+        "display_geometry_policy": "raw"
+      },
+      {
+        "key": "element_4a7380e05236386096db87f84617ea058187ad82502702cafc65fe3fbabb11ce",
+        "element_id": "element_4a7380e05236386096db87f84617ea058187ad82502702cafc65fe3fbabb11ce",
+        "page_id": "page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b",
+        "document_id": "document_4f13fe24f9dd126d7e8f6b5f982e21226bc78bc67894d0499a4b3ccc2156a881",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 2,
+          "page_number": 2,
+          "element_id": 11,
+          "question_id": null
+        },
+        "native_id": 11,
+        "page_number": 2,
+        "element_type": "text",
+        "element_category": "TEXT",
+        "bbox": {
+          "x1": 2552,
+          "y1": 2203,
+          "x2": 4335,
+          "y2": 2376
+        },
+        "level": 2,
+        "reading_order": 7,
+        "ocr": {
+          "status": "present",
+          "text": "Our reputation for absolute discretion, reliability and innovation has been forged over almost 50 years."
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 2552,
+          "y1": 2203,
+          "x2": 4335,
+          "y2": 2376
+        },
+        "display_geometry_policy": "raw"
+      },
+      {
+        "key": "element_fc72d8e20dc1f186d8996adf2d951259e1e1a288b23cbb7d4f27e5b3c5cc17a7",
+        "element_id": "element_fc72d8e20dc1f186d8996adf2d951259e1e1a288b23cbb7d4f27e5b3c5cc17a7",
+        "page_id": "page_d39b2e0552ac87b9c8a93dd1027e62e04abc85be7aab168d1653625f95c3a29b",
+        "document_id": "document_4f13fe24f9dd126d7e8f6b5f982e21226bc78bc67894d0499a4b3ccc2156a881",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 2,
+          "page_number": 2,
+          "element_id": 12,
+          "question_id": null
+        },
+        "native_id": 12,
+        "page_number": 2,
+        "element_type": "text",
+        "element_category": "TEXT",
+        "bbox": {
+          "x1": 2554,
+          "y1": 2445,
+          "x2": 4606,
+          "y2": 2778
+        },
+        "level": 2,
+        "reading_order": 8,
+        "ocr": {
+          "status": "present",
+          "text": "Our growth strategy has proved itself through changing economic climates; since flotation we have delivered 1,000% share price appreciation, returned 400% of the initial float price in dividends, and delivered total shareholder return of 2,700%."
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 2554,
+          "y1": 2445,
+          "x2": 4606,
+          "y2": 2778
+        },
+        "display_geometry_policy": "raw"
+      }
+    ],
+    "total": 8,
+    "coordinate_convention": "Source image pixels with top-left origin."
+  }
+}

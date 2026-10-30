@@ -1,0 +1,42 @@
+{
+  "name": "docattentionlens-ui",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "engines": {
+    "node": ">=22.15.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc --noEmit",
+    "typecheck:tests": "tsc --noEmit -p tsconfig.tests.json",
+    "preview": "vite preview --host 127.0.0.1",
+    "api:generate": "node scripts/generate-api.mjs && openapi-typescript ../contracts/openapi.json -o src/api/generated/schema.ts",
+    "test:e2e": "playwright test",
+    "test:render": "playwright test -c playwright.rendering.config.ts",
+    "test:unit": "vitest run --config vitest.config.ts"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@fontsource/ibm-plex-sans": "5.3.0",
+    "openapi-fetch": "0.13.8",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-router-dom": "7.18.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@testing-library/dom": "10.4.2",
+    "@testing-library/react": "16.3.3",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
+    "@vitejs/plugin-react": "4.4.1",
+    "happy-dom": "20.14.5",
+    "openapi-typescript": "7.6.1",
+    "typescript": "5.8.3",
+    "vite": "6.4.4",
+    "vitest": "5.0.3"
+  }
+}

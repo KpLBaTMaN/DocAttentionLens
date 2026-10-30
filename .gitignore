@@ -1,0 +1,88 @@
+.venv/
+var/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+*.pyc
+*.tsbuildinfo
+node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+.env
+infra/.env
+build/
+dist/
+
+# Local dataset export. data/README.md, data/LICENSE.md, data/.gitkeep and the two small examples stay tracked.
+data/**
+!data/README.md
+!data/LICENSE.md
+!data/.gitkeep
+!data/doclayout_mm_rag_examples/
+!data/doclayout_mm_rag_examples/**
+!data/TableGroundQA-Examples-v1/
+!data/TableGroundQA-Examples-v1/**
+
+# Secrets (keep committed examples)
+.env.*
+!.env.example
+!infra/env.example
+
+# Extra generated/local paths this repo produces or may produce
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+htmlcov/
+coverage/
+test-results/
+playwright-report/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.ipynb_checkpoints/
+.eslintcache
+.vite/
+*.tgz
+*.bak
+*.orig
+*.tmp
+nohup.out
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Other virtual environments
+venv/
+.venv*/
+
+# Model weights, captures and local databases
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.sqlite
+*.sqlite3
+*.db
+
+# Keys and local Compose overrides
+*.pem
+*.key
+compose.override.yaml
+docker-compose.override.yml
+
+# Development archive: kept locally, not published
+docs/design/
+docs/implementation-history.md
+docs/release-verification.md
+docs/packages/
+docs/contracts/
+/contracts/

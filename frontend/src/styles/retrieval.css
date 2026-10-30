@@ -1,0 +1,3 @@
+.docattentionlens-candidate-picker {display:flex;flex-wrap:wrap;gap:12px;max-height:180px;overflow:auto;padding:12px;border:1px solid var(--docattentionlens-line);}
+.docattentionlens-candidate-picker label {white-space:nowrap;}
+.docattentionlens-table-scroll {overflow:auto;}

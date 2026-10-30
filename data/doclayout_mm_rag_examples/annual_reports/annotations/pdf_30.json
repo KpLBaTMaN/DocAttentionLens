@@ -1,0 +1,398 @@
+{
+  "document_id": 30,
+  "questions_and_answers": [
+    {
+      "id": 1,
+      "document_id": 30,
+      "question": "What was the book value per share of Arrow Financial Corporation as of December 31, 2019?",
+      "answer": "$20.12",
+      "question_type": "short",
+      "element_ids": [
+        8,
+        46
+      ],
+      "document_scoped_question": "What was the book value per share as of December 31, 2019?",
+      "collection_scoped_question": "What was the book value per share of Arrow Financial Corporation as of December 31, 2019?"
+    },
+    {
+      "id": 2,
+      "document_id": 30,
+      "question": "What was the cash dividends per share of Arrow Financial Corporation for the 12 months ended December 31, 2019?",
+      "answer": "$1.02",
+      "question_type": "short",
+      "element_ids": [
+        6,
+        46
+      ],
+      "document_scoped_question": "What was the cash dividends per share for the 12 months ended December 31, 2019?",
+      "collection_scoped_question": "What was the cash dividends per share of Arrow Financial Corporation for the 12 months ended December 31, 2019?"
+    },
+    {
+      "id": 3,
+      "document_id": 30,
+      "question": "What were the deposits of Arrow Financial Corporation as of December 31, 2019?",
+      "answer": "$2,616 million",
+      "question_type": "short",
+      "element_ids": [
+        7,
+        19,
+        48,
+        36
+      ],
+      "document_scoped_question": "What were the deposits as of December 31, 2019?",
+      "collection_scoped_question": "What were the deposits of Arrow Financial Corporation as of December 31, 2019?"
+    },
+    {
+      "id": 4,
+      "document_id": 30,
+      "question": "What were the assets of Arrow Financial Corporation as of December 31, 2019?",
+      "answer": "$3,184 million",
+      "question_type": "short",
+      "element_ids": [
+        5,
+        48,
+        37
+      ],
+      "document_scoped_question": "What were the assets as of December 31, 2019?",
+      "collection_scoped_question": "What were the assets of Arrow Financial Corporation as of December 31, 2019?"
+    },
+    {
+      "id": 5,
+      "document_id": 30,
+      "question": "What was the shareholders' equity of Arrow Financial Corporation as of December 31, 2019?",
+      "answer": "$301.728 million",
+      "question_type": "short",
+      "element_ids": [
+        9,
+        48
+      ],
+      "document_scoped_question": "What was the shareholders' equity as of December 31, 2019?",
+      "collection_scoped_question": "What was the shareholders' equity of Arrow Financial Corporation as of December 31, 2019?"
+    },
+    {
+      "id": 6,
+      "document_id": 30,
+      "question": "Who was the President and Chief Executive Officer of Arrow Financial Corporation in 2019?",
+      "answer": "Tom Murphy",
+      "question_type": "short",
+      "element_ids": [
+        31,
+        32,
+        80
+      ],
+      "document_scoped_question": "Who was the President and Chief Executive Officer in 2019?",
+      "collection_scoped_question": "Who was the President and Chief Executive Officer of Arrow Financial Corporation in 2019?"
+    },
+    {
+      "id": 7,
+      "document_id": 30,
+      "question": "True or false: Arrow Financial Corporation, in 2019, was named to top-performing lists by American Banker magazine, Bank Director magazine, and Seifried & Brew, LLC.",
+      "answer": "True",
+      "question_type": "true_or_false",
+      "element_ids": [
+        25
+      ],
+      "document_scoped_question": "True or false: the company, in 2019, was named to top-performing lists by American Banker magazine, Bank Director magazine, and Seifried & Brew, LLC.",
+      "collection_scoped_question": "True or false: Arrow Financial Corporation, in 2019, was named to top-performing lists by American Banker magazine, Bank Director magazine, and Seifried & Brew, LLC."
+    },
+    {
+      "id": 8,
+      "document_id": 30,
+      "question": "What was the Interest and Dividend income of Arrow Financial Corporation in 2019?",
+      "answer": "$109,759,000",
+      "question_type": "short",
+      "element_ids": [
+        46
+      ],
+      "document_scoped_question": "What was the Interest and Dividend income in 2019?",
+      "collection_scoped_question": "What was the Interest and Dividend income of Arrow Financial Corporation in 2019?"
+    },
+    {
+      "id": 9,
+      "document_id": 30,
+      "question": "What was the Total Non-interest Expense for Arrow Financial Corporation in 2017?",
+      "answer": "$62,705,000",
+      "question_type": "short",
+      "element_ids": [
+        46
+      ],
+      "document_scoped_question": "What was the Total Non-interest Expense in 2017?",
+      "collection_scoped_question": "What was the Total Non-interest Expense for Arrow Financial Corporation in 2017?"
+    },
+    {
+      "id": 10,
+      "document_id": 30,
+      "question": "What was the Return on Tangible Equity for Arrow Financial Corporation in 2018?",
+      "answer": "15.38%",
+      "question_type": "short",
+      "element_ids": [
+        46
+      ],
+      "document_scoped_question": "What was the Return on Tangible Equity in 2018?",
+      "collection_scoped_question": "What was the Return on Tangible Equity for Arrow Financial Corporation in 2018?"
+    },
+    {
+      "id": 11,
+      "document_id": 30,
+      "question": "What was the Asset Quality Ratio for Nonperforming Assets to Period-End Assets for Arrow Financial Corporation in 2019?",
+      "answer": "0.18%",
+      "question_type": "short",
+      "element_ids": [
+        46
+      ],
+      "document_scoped_question": "What was the Asset Quality Ratio for Nonperforming Assets to Period-End Assets in 2019?",
+      "collection_scoped_question": "What was the Asset Quality Ratio for Nonperforming Assets to Period-End Assets for Arrow Financial Corporation in 2019?"
+    },
+    {
+      "id": 12,
+      "document_id": 30,
+      "question": "What was the main net income highlight for Arrow Financial Corporation, according to its 2019 annual review?",
+      "answer": "$37.5 million, up 3.3%",
+      "question_type": "short",
+      "element_ids": [
+        17,
+        34
+      ],
+      "document_scoped_question": "What was the main net income highlight?",
+      "collection_scoped_question": "What was the main net income highlight for Arrow Financial Corporation, according to its 2019 annual review?"
+    },
+    {
+      "id": 13,
+      "document_id": 30,
+      "question": "True or false: The stock dividend was distributed in August, according to the 2019 annual report",
+      "answer": "False",
+      "question_type": "true_or_false",
+      "element_ids": [
+        41
+      ],
+      "document_scoped_question": "True or false: The stock dividend was distributed in August",
+      "collection_scoped_question": "True or false: The stock dividend was distributed in August, according to the 2019 annual report"
+    },
+    {
+      "id": 14,
+      "document_id": 30,
+      "question": "How much interest and dividend income was shown by Arrow Financial Corporation in 2017 as per the 2019 annual report?",
+      "answer": "$84,657,000",
+      "question_type": "short",
+      "element_ids": [
+        46
+      ],
+      "document_scoped_question": "How much interest and dividend income was shown in 2017?",
+      "collection_scoped_question": "How much interest and dividend income was shown by Arrow Financial Corporation in 2017 as per the 2019 annual report?"
+    },
+    {
+      "id": 15,
+      "document_id": 30,
+      "question": "How much net interest income did Arrow Financial Corporation earn in 2015?",
+      "answer": "$65,925,000",
+      "question_type": "short",
+      "element_ids": [
+        46
+      ],
+      "document_scoped_question": "How much net interest income was earned in 2015?",
+      "collection_scoped_question": "How much net interest income did Arrow Financial Corporation earn in 2015?"
+    },
+    {
+      "id": 16,
+      "document_id": 30,
+      "question": "True or False: The Arrow Financial Corporation had 14,566,000 diluted average shares outstanding in 2019?",
+      "answer": "False",
+      "question_type": "true_or_false",
+      "element_ids": [
+        46
+      ],
+      "document_scoped_question": "True or False: There were 14,566,000 diluted average shares outstanding in 2019?",
+      "collection_scoped_question": "True or False: The Arrow Financial Corporation had 14,566,000 diluted average shares outstanding in 2019?"
+    },
+    {
+      "id": 17,
+      "document_id": 30,
+      "question": "What does the second graph represent on page 6, in the Total Return Performance section of Arrow Financial Corporation's 2019 annual review?",
+      "answer": "Comparison of 15-Year Cumulative Total Return - Assumes Initial Investment of $100",
+      "question_type": "long",
+      "element_ids": [
+        49,
+        52
+      ],
+      "document_scoped_question": "What does the second graph represent on page 6, in the Total Return Performance section?",
+      "collection_scoped_question": "What does the second graph represent on page 6, in the Total Return Performance section of Arrow Financial Corporation's 2019 annual review?"
+    },
+    {
+      "id": 18,
+      "document_id": 30,
+      "question": "What was the initial investment in the NASDAQ Banks Index according to the Arrow Financial Corporation 2019 annual report?",
+      "answer": "$100.00",
+      "question_type": "short",
+      "element_ids": [
+        52,
+        53
+      ],
+      "document_scoped_question": "What was the initial investment in the NASDAQ Banks Index?",
+      "collection_scoped_question": "What was the initial investment in the NASDAQ Banks Index according to the Arrow Financial Corporation 2019 annual report?"
+    },
+    {
+      "id": 19,
+      "document_id": 30,
+      "question": "True or False: The Russell 2000 Index went from $100 in 2004 to $313.54 in 2019, according to the 2019 Arrow Financial Corporation's annual review?",
+      "answer": "True",
+      "question_type": "true_or_false",
+      "element_ids": [
+        52,
+        53
+      ],
+      "document_scoped_question": "True or False: The Russell 2000 Index went from $100 in 2004 to $313.54 in 2019?",
+      "collection_scoped_question": "True or False: The Russell 2000 Index went from $100 in 2004 to $313.54 in 2019, according to the 2019 Arrow Financial Corporation's annual review?"
+    },
+    {
+      "id": 20,
+      "document_id": 30,
+      "question": "In Arrow Financial Corporation's 2019 annual review, in the Total Return Performance section, what does the comparison of five-year cumulative total return represent?",
+      "answer": "It compares cumulative total return from an assumed initial investment of $100 over 2014–2019 for Arrow Financial Corporation, the NASDAQ Banks Index, the Russell 2000 Index, and the Zacks $1B-$5B Bank Assets Index.",
+      "question_type": "long",
+      "element_ids": [
+        49,
+        50,
+        51
+      ],
+      "document_scoped_question": "In the Total Return Performance section, what does the comparison of five-year cumulative total return represent?",
+      "collection_scoped_question": "In Arrow Financial Corporation's 2019 annual review, in the Total Return Performance section, what does the comparison of five-year cumulative total return represent?"
+    },
+    {
+      "id": 21,
+      "document_id": 30,
+      "question": "What 3 other financial benchmarks does Arrow Financial Corporation use in 2019?",
+      "answer": "NASDAQ Banks Index\nRussell 2000 Index\nZacks $1B-$5B Bank Assets Index",
+      "question_type": "long",
+      "element_ids": [
+        49,
+        50,
+        51
+      ],
+      "document_scoped_question": "What 3 other financial benchmarks does the company use in 2019?",
+      "collection_scoped_question": "What 3 other financial benchmarks does Arrow Financial Corporation use in 2019?"
+    },
+    {
+      "id": 22,
+      "document_id": 30,
+      "question": "How many board of directors are there in the Arrow Financial Corporation, as of the 2019 annual review?",
+      "answer": "12",
+      "question_type": "short",
+      "element_ids": [
+        57,
+        62,
+        66,
+        58,
+        63,
+        64,
+        59,
+        65,
+        60,
+        61,
+        67,
+        68
+      ],
+      "document_scoped_question": "How many board of directors are there?",
+      "collection_scoped_question": "How many board of directors are there in the Arrow Financial Corporation, as of the 2019 annual review?"
+    },
+    {
+      "id": 23,
+      "document_id": 30,
+      "question": "According to Arrow Financial Corporation's 2019 annual review, who is listed as chairman and as retired President and CEO of Arrow/Glens Falls National Bank?",
+      "answer": "Thomas L. Hoy",
+      "question_type": "short",
+      "element_ids": [
+        57
+      ],
+      "document_scoped_question": "Who is listed as chairman and as retired President and CEO of Arrow/Glens Falls National Bank?",
+      "collection_scoped_question": "According to Arrow Financial Corporation's 2019 annual review, who is listed as chairman and as retired President and CEO of Arrow/Glens Falls National Bank?"
+    },
+    {
+      "id": 24,
+      "document_id": 30,
+      "question": "Where is Arrow Financial Corporation's common stock traded, as of 2019?",
+      "answer": "NASDAQ Global Select Market",
+      "question_type": "short",
+      "element_ids": [
+        85,
+        86,
+        87
+      ],
+      "document_scoped_question": "Where is the common stock traded, as of 2019?",
+      "collection_scoped_question": "Where is Arrow Financial Corporation's common stock traded, as of 2019?"
+    },
+    {
+      "id": 25,
+      "document_id": 30,
+      "question": "True or false: According to Arrow Financial Corporation's 2019 report, the Dividend Reinvestment Plan is involuntary and participants must wait for a certain period before terminating it.",
+      "answer": "False",
+      "question_type": "true_or_false",
+      "element_ids": [
+        91
+      ],
+      "document_scoped_question": "True or false: The Dividend Reinvestment Plan is involuntary and participants must wait for a certain period before terminating it.",
+      "collection_scoped_question": "True or false: According to Arrow Financial Corporation's 2019 report, the Dividend Reinvestment Plan is involuntary and participants must wait for a certain period before terminating it."
+    },
+    {
+      "id": 26,
+      "document_id": 30,
+      "question": "What is the Dividend Reinvestment Plan of Arrow Financial Corporation according to the 2019 annual review?",
+      "answer": "Arrow Financial Corporation Dividend Reinvestment Plan offers participants a convenient and economical way to acquire common stock of Arrow Financial Corporation without payment of any brokerage commission or service charge.",
+      "question_type": "long",
+      "element_ids": [
+        88,
+        89
+      ],
+      "document_scoped_question": "What is the Dividend Reinvestment Plan?",
+      "collection_scoped_question": "What is the Dividend Reinvestment Plan of Arrow Financial Corporation according to the 2019 annual review?"
+    },
+    {
+      "id": 27,
+      "document_id": 30,
+      "question": "How many Director Emeriti are there in Arrow Financial Corporation, as displayed on page 7 of the 2019 annual review?",
+      "answer": "9",
+      "question_type": "short",
+      "element_ids": [
+        70,
+        75,
+        73,
+        76,
+        74,
+        71,
+        77,
+        72,
+        78
+      ],
+      "document_scoped_question": "How many Director Emeriti are there, as displayed on page 7?",
+      "collection_scoped_question": "How many Director Emeriti are there in Arrow Financial Corporation, as displayed on page 7 of the 2019 annual review?"
+    },
+    {
+      "id": 28,
+      "document_id": 30,
+      "question": "True or False: In Arrow Financial Corporation’s 2019 report, participants may reinvest all cash dividends in additional shares as well as make optional cash contributions to buy shares.",
+      "answer": "True",
+      "question_type": "true_or_false",
+      "element_ids": [
+        88,
+        90
+      ],
+      "document_scoped_question": "True or False: Participants may reinvest all cash dividends in additional shares as well as make optional cash contributions to buy shares.",
+      "collection_scoped_question": "True or False: In Arrow Financial Corporation’s 2019 report, participants may reinvest all cash dividends in additional shares as well as make optional cash contributions to buy shares."
+    },
+    {
+      "id": 29,
+      "document_id": 30,
+      "question": "What other corporations are involved in the corporate group of Arrow Financial Corporation, as of the 2019 annual review?",
+      "answer": "Glens Falls National Bank and Trust Company\nSaratoga National Bank and Trust Company\nUpstate Agency, LLC",
+      "question_type": "long",
+      "element_ids": [
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "document_scoped_question": "What other corporations are involved in the corporate group?",
+      "collection_scoped_question": "What other corporations are involved in the corporate group of Arrow Financial Corporation, as of the 2019 annual review?"
+    }
+  ]
+}

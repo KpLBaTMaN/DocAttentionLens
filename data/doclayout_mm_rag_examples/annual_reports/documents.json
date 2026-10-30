@@ -1,0 +1,47 @@
+{
+  "documents": [
+    {
+      "id": 30,
+      "filename": "NASDAQ_AROW_2019",
+      "total_pages": 8,
+      "source_pdf_file": "pdfs/pdf_30.pdf",
+      "pages": [
+        {
+          "page_number": 1,
+          "image_file": "document_pages/pdf_30/page_1.jpg"
+        },
+        {
+          "page_number": 2,
+          "image_file": "document_pages/pdf_30/page_2.jpg"
+        },
+        {
+          "page_number": 3,
+          "image_file": "document_pages/pdf_30/page_3.jpg"
+        },
+        {
+          "page_number": 4,
+          "image_file": "document_pages/pdf_30/page_4.jpg"
+        },
+        {
+          "page_number": 5,
+          "image_file": "document_pages/pdf_30/page_5.jpg"
+        },
+        {
+          "page_number": 6,
+          "image_file": "document_pages/pdf_30/page_6.jpg"
+        },
+        {
+          "page_number": 7,
+          "image_file": "document_pages/pdf_30/page_7.jpg"
+        },
+        {
+          "page_number": 8,
+          "image_file": "document_pages/pdf_30/page_8.jpg"
+        }
+      ],
+      "layout_file": "layouts/pdf_30.json",
+      "ocr_file": "ocr_texts/pdf_30.json",
+      "annotations_file": "annotations/pdf_30.json"
+    }
+  ]
+}

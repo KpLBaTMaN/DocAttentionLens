@@ -1,0 +1,132 @@
+{
+  "methods": [
+    {
+      "method_id": "attention.row",
+      "origin_class": "published_operation"
+    },
+    {
+      "method_id": "attention.mean_heads",
+      "origin_class": "standard_summary"
+    },
+    {
+      "method_id": "attention.max_heads",
+      "origin_class": "standard_summary"
+    },
+    {
+      "method_id": "attention.min_heads",
+      "origin_class": "standard_summary"
+    },
+    {
+      "method_id": "attention.weighted_heads",
+      "origin_class": "standard_summary"
+    },
+    {
+      "method_id": "attention.entropy",
+      "origin_class": "published_formula"
+    },
+    {
+      "method_id": "attention.concentration",
+      "origin_class": "standard_summary"
+    },
+    {
+      "method_id": "attention.topk_mass",
+      "origin_class": "standard_summary"
+    },
+    {
+      "method_id": "attention.sinks",
+      "origin_class": "standard_summary"
+    },
+    {
+      "method_id": "attention.modality_ratio",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "attention.head_by_head",
+      "origin_class": "published_inspection"
+    },
+    {
+      "method_id": "attention.across_layers",
+      "origin_class": "published_inspection"
+    },
+    {
+      "method_id": "heads.distribution_similarity",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "attention.spatial_distance",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "attention.rollout",
+      "origin_class": "published_algorithm"
+    },
+    {
+      "method_id": "attention.modality_budget_depth",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "attention.whole_query",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "attention.text_to_text",
+      "origin_class": "published_inspection"
+    },
+    {
+      "method_id": "attention.text_to_vision",
+      "origin_class": "published_inspection"
+    },
+    {
+      "method_id": "attention.vision_to_text",
+      "origin_class": "published_inspection"
+    },
+    {
+      "method_id": "attention.vision_to_vision",
+      "origin_class": "published_inspection"
+    },
+    {
+      "method_id": "attention.spatial_direction",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "attention.local_global",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "attention.row_structure",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "attention.column_structure",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "attention.sink_detection",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "heads.clustering",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "heads.pattern_taxonomy",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "attention.partial_rollout",
+      "origin_class": "published_algorithm"
+    },
+    {
+      "method_id": "attention.rollout_evolution",
+      "origin_class": "published_algorithm"
+    },
+    {
+      "method_id": "attention.graph",
+      "origin_class": "adaptation"
+    },
+    {
+      "method_id": "attention.flow",
+      "origin_class": "adaptation"
+    }
+  ]
+}

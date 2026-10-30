@@ -1,0 +1,407 @@
+{
+  "document_id": 30,
+  "ocr_model": "glm-ocr",
+  "ocr_status": "complete",
+  "elements": [
+    {
+      "id": 1,
+      "ocr_text": "2019 ANNUAL REVIEW"
+    },
+    {
+      "id": 2,
+      "ocr_text": "ARROW Financial Corporation"
+    },
+    {
+      "id": 3,
+      "ocr_text": "Performance Comparisons"
+    },
+    {
+      "id": 4,
+      "ocr_text": "$1.69\n2015\n$1.81\n2016\n$1.98\n2017\n$2.43\n2018\n$2.50\n2019\nDILUTED EARNINGS PER SHARE\nFor the 12 Months Ended December 31*"
+    },
+    {
+      "id": 5,
+      "ocr_text": "$2,446\n$2,605\n$2,760\n$2,988\n$3,184\n2015\n2016\n2017\n2018\n2019\nASSETS\nAs of December 31\n($ in Millions)"
+    },
+    {
+      "id": 6,
+      "ocr_text": "$.87\n2015\n$.89\n2016\n$.92\n2017\n$.97\n2018\n$1.02\n2019\nCASH DIVIDENDS PAID PER SHARE\nFor the 12 Months Ended December 31*"
+    },
+    {
+      "id": 7,
+      "ocr_text": "$2,030\n$2,117\n$2,245\n$2,346\n$2,616\n2015\n2016\n2017\n2018\n2019\nDEPOSITS\nAs of December 31\n($ in Millions)"
+    },
+    {
+      "id": 8,
+      "ocr_text": "$14.69\n$15.81\n$16.89\n$18.08\n$20.12\n2015\n2016\n2017\n2018\n2019\nBOOK VALUE PER SHARE\nAs of December 31*"
+    },
+    {
+      "id": 9,
+      "ocr_text": "$214\n$233\n$250\n$270\n$302\n2015\n2016\n2017\n2018\n2019\nSHAREHOLDERS' EQUITY\nAs of December 31\n($ in Millions)"
+    },
+    {
+      "id": 10,
+      "ocr_text": "*Per share amounts have been restated for stock dividends distributed."
+    },
+    {
+      "id": 11,
+      "ocr_text": "Fellow Shareholders:"
+    },
+    {
+      "id": 12,
+      "ocr_text": "PETER M. BURKE"
+    },
+    {
+      "id": 13,
+      "ocr_text": "Like most financial institutions, we navigated a challenging interest rate environment and other economic pressures in 2019. Yet I am proud to share that we once again delivered record earnings steady growth, sustained"
+    },
+    {
+      "id": 14,
+      "ocr_text": "profitability and excellent credit quality. We remain committed to living our mission for our customers, employees, shareholders and the communities we serve. Our measured and thoughtful approach keeps us focused on long-term opportunities that will help us continue to grow in the future."
+    },
+    {
+      "id": 15,
+      "ocr_text": "Some highlights from 2019 include:"
+    },
+    {
+      "id": 16,
+      "ocr_text": "Surpassed $3 billion in assets for the first time"
+    },
+    {
+      "id": 17,
+      "ocr_text": "Net income reached a record high of $37.5 million"
+    },
+    {
+      "id": 18,
+      "ocr_text": "Total loan balances grew to a record $2.4 billion"
+    },
+    {
+      "id": 19,
+      "ocr_text": "Total deposits grew to a record $2.6 billion"
+    },
+    {
+      "id": 20,
+      "ocr_text": "Wealth Management Division reached a record $1.5 billion in assets under management"
+    },
+    {
+      "id": 21,
+      "ocr_text": "Continued to optimize our Glens Falls National Bank branch network in Plattsburgh and Queensbury"
+    },
+    {
+      "id": 22,
+      "ocr_text": "Expanded the Saratoga National Bank Capital Region footprint by opening a Rotterdam location and announced plans for a Latham branch"
+    },
+    {
+      "id": 23,
+      "ocr_text": "Wealth Management Division and Upstate Agency moved into new and updated headquarters"
+    },
+    {
+      "id": 24,
+      "ocr_text": "Enhanced our customer experience, including upgrades for online loan payments and Business Online Banking"
+    },
+    {
+      "id": 25,
+      "ocr_text": "Named to top-performing lists by American Banker magazine, Bank Director magazine and Seifried & Brew, LLC"
+    },
+    {
+      "id": 26,
+      "ocr_text": "Glens Falls National and Saratoga National maintained 5-Star \"Superior\" ratings from BauerFinancial"
+    },
+    {
+      "id": 27,
+      "ocr_text": "Saratoga National Bank was named \"Top Small Community Lender\" by the U.S. Small Business Administration in the Capital Region for the sixth consecutive year"
+    },
+    {
+      "id": 28,
+      "ocr_text": "The Arrow team's dedication is the driving force behind our accomplishments, and I want to thank our employees for everything they do. Their commitment to improving our customer experience, serving our communities, and delivering value for the organization keeps us competitive and strong."
+    },
+    {
+      "id": 29,
+      "ocr_text": "Additionally, our commitment to giving back helps our communities remain strong. We are proud to share that the Arrow Family of Companies contributed more than $4 million and countless volunteer hours over the past decade to nonprofit organizations that make our region a great place to live."
+    },
+    {
+      "id": 30,
+      "ocr_text": "Thank you for your continued investment in Arrow Financial Corporation. We value your trust, support and partnership."
+    },
+    {
+      "id": 31,
+      "ocr_text": "Tom Murphy"
+    },
+    {
+      "id": 32,
+      "ocr_text": "Tom Murphy President and Chief Executive Officer"
+    },
+    {
+      "id": 33,
+      "ocr_text": "2019 FINANCIAL HIGHLIGHTS"
+    },
+    {
+      "id": 34,
+      "ocr_text": "Net Income: $37.5 million, up 3.3%"
+    },
+    {
+      "id": 35,
+      "ocr_text": "Total Loans: $2.4 billion, up 8.6%"
+    },
+    {
+      "id": 36,
+      "ocr_text": "Total Deposits: $2.6 billion, up 11.5%"
+    },
+    {
+      "id": 37,
+      "ocr_text": "Total Assets: $3.18 billion, up 6.6%"
+    },
+    {
+      "id": 38,
+      "ocr_text": "Return on Average Equity: 13.17%"
+    },
+    {
+      "id": 39,
+      "ocr_text": "Return on Average Assets: 1.24%"
+    },
+    {
+      "id": 40,
+      "ocr_text": "Return on Tangible Equity: 14.36%"
+    },
+    {
+      "id": 41,
+      "ocr_text": "Stock Dividend: 3% distributed in Sept."
+    },
+    {
+      "id": 42,
+      "ocr_text": "Current Quarterly Cash Dividend: $0.26"
+    },
+    {
+      "id": 43,
+      "ocr_text": "Book Value Per Share: Increase of 11.2%"
+    },
+    {
+      "id": 44,
+      "ocr_text": "Shareholders' Equity: Increase of 11.9%"
+    },
+    {
+      "id": 45,
+      "ocr_text": "Consolidated Statements of Income (Unaudited)"
+    },
+    {
+      "id": 46,
+      "ocr_text": "<table border=\"1\"><tr><td></td><td colspan=\"5\">Years Ended December 31</td></tr><tr><td>(in thousands, except per-share amounts)</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td></tr><tr><td>Interest and Dividend Income</td><td>$70,738</td><td>$76,915</td><td>$84,657</td><td>$96,503</td><td>$109,759</td></tr><tr><td>Interest Expense</td><td>4,813</td><td>5,356</td><td>7,006</td><td>12,485</td><td>21,710</td></tr><tr><td>Net Interest Income</td><td>65,925</td><td>71,559</td><td>77,651</td><td>84,018</td><td>88,049</td></tr><tr><td>Provision for Loan Losses</td><td>1,347</td><td>2,033</td><td>2,736</td><td>2,607</td><td>2,079</td></tr><tr><td>Net Interest Income after Provision for Loan Losses</td><td>64,578</td><td>69,526</td><td>74,915</td><td>81,411</td><td>85,970</td></tr><tr><td>Total Noninterest Income</td><td>28,124</td><td>27,832</td><td>27,645</td><td>28,949</td><td>28,555</td></tr><tr><td>Total Noninterest Expense</td><td>57,430</td><td>59,609</td><td>62,705</td><td>65,055</td><td>67,450</td></tr><tr><td>Income Before Taxes</td><td>35,272</td><td>37,749</td><td>39,855</td><td>45,305</td><td>47,075</td></tr><tr><td>Provision for Income Taxes</td><td>10,610</td><td>11,215</td><td>10,529</td><td>9,026</td><td>9,600</td></tr><tr><td>Net Income</td><td>$24,662</td><td>$26,534</td><td>$29,326</td><td>$36,279</td><td>$37,475</td></tr><tr><td>Share and Per Share Data</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Diluted Average Shares Outstanding</td><td>14,566</td><td>14,725</td><td>14,838</td><td>14,922</td><td>14,983</td></tr><tr><td>Diluted Earnings Per Share</td><td>$1.69</td><td>$1.81</td><td>$1.98</td><td>$2.43</td><td>$2.50</td></tr><tr><td>Cash Dividends Per Share</td><td>$.87</td><td>$.89</td><td>$.92</td><td>$.97</td><td>$1.02</td></tr><tr><td>Book Value Per Share</td><td>$14.69</td><td>$15.81</td><td>$16.89</td><td>$18.08</td><td>$20.12</td></tr><tr><td>Tangible Book Value Per Share</td><td>$12.98</td><td>$14.14</td><td>$15.26</td><td>$16.49</td><td>$18.55</td></tr><tr><td>Key Earnings Ratios</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Return on Average Assets</td><td>1.05%</td><td>1.06%</td><td>1.09%</td><td>1.27%</td><td>1.24%</td></tr><tr><td>Return on Average Equity</td><td>11.86%</td><td>11.79%</td><td>12.14%</td><td>13.96%</td><td>13.17%</td></tr><tr><td>Return on Tangible Equity</td><td>13.50%</td><td>13.25%</td><td>13.51%</td><td>15.38%</td><td>14.36%</td></tr><tr><td>Net Interest Margin</td><td>2.97%</td><td>3.00%</td><td>3.02%</td><td>3.07%</td><td>3.05%</td></tr><tr><td>Capital Ratios</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tier 1 Leverage Ratio</td><td>9.25%</td><td>9.47%</td><td>9.49%</td><td>9.61%</td><td>9.98%</td></tr><tr><td>Total Risk-Based Capital Ratio</td><td>15.09%</td><td>15.15%</td><td>14.98%</td><td>14.86%</td><td>14.78%</td></tr><tr><td>Asset Quality Ratios</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Nonperforming Assets to Period-End Assets</td><td>0.36%</td><td>0.28%</td><td>0.28%</td><td>0.23%</td><td>0.18%</td></tr><tr><td>Allowance for Loan Losses to Period-End Loans</td><td>1.02%</td><td>0.97%</td><td>0.95%</td><td>0.92%</td><td>0.89%</td></tr></table>"
+    },
+    {
+      "id": 47,
+      "ocr_text": "Consolidated Balance Sheets (Unaudited)"
+    },
+    {
+      "id": 48,
+      "ocr_text": "<table border=\"1\"><tr><td>(in thousands)</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td></tr><tr><td>Assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cash and Due from Banks</td><td>34816</td><td>43024</td><td>42562</td><td>56529</td><td>47035</td></tr><tr><td>Interest-Bearing Deposits at Banks</td><td>16252</td><td>14331</td><td>30276</td><td>27710</td><td>23186</td></tr><tr><td>Investment Securities</td><td>731759</td><td>703335</td><td>646056</td><td>618291</td><td>614779</td></tr><tr><td>Loans</td><td>1573952</td><td>1753268</td><td>1950770</td><td>2196215</td><td>2386120</td></tr><tr><td>Allowance for Loan Losses</td><td>(16038)</td><td>(17012)</td><td>(18586)</td><td>(20196)</td><td>(21187)</td></tr><tr><td>Net Loans</td><td>1557914</td><td>1736256</td><td>1932184</td><td>2176019</td><td>2364933</td></tr><tr><td>Premises and Equipment, Net</td><td>27440</td><td>26938</td><td>27619</td><td>30446</td><td>40629</td></tr><tr><td>Goodwill and Intangible Assets, Net</td><td>24980</td><td>24569</td><td>24162</td><td>23725</td><td>23534</td></tr><tr><td>Other Assets</td><td>53027</td><td>56789</td><td>57606</td><td>55614</td><td>70179</td></tr><tr><td>Total Assets</td><td>2446188</td><td>2605242</td><td>2760465</td><td>2988334</td><td>3184275</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Liabilities and Shareholders&#x27; Equity</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Noninterest-Bearing Deposits</td><td>358751</td><td>387280</td><td>441945</td><td>472768</td><td>484944</td></tr><tr><td>Interest-Bearing Checking and Savings Deposits</td><td>1481855</td><td>1529953</td><td>1601888</td><td>1608829</td><td>1735789</td></tr><tr><td>Time Deposits</td><td>189817</td><td>199313</td><td>201283</td><td>263987</td><td>395321</td></tr><tr><td>Total Deposits</td><td>2030423</td><td>2116546</td><td>2245116</td><td>2345584</td><td>2616054</td></tr><tr><td>Short-Term Borrowings</td><td>105173</td><td>158836</td><td>169966</td><td>288659</td><td>181099</td></tr><tr><td>Federal Home Loan Bank Term Advances</td><td>55000</td><td>55000</td><td>55000</td><td>45000</td><td>30000</td></tr><tr><td>Other Long-Term Debt</td><td>20000</td><td>20000</td><td>20000</td><td>20000</td><td>20000</td></tr><tr><td>Other Liabilities</td><td>21621</td><td>22008</td><td>20780</td><td>19507</td><td>35394</td></tr><tr><td>Total Liabilities</td><td>2232217</td><td>2372390</td><td>2510862</td><td>2718750</td><td>2882547</td></tr><tr><td>Total Shareholders&#x27; Equity</td><td>213971</td><td>232852</td><td>249603</td><td>269584</td><td>301728</td></tr><tr><td>Total Liabilities and Shareholders&#x27; Equity</td><td>2446188</td><td>2605242</td><td>2760465</td><td>2988334</td><td>3184275</td></tr></table>"
+    },
+    {
+      "id": 49,
+      "ocr_text": "Total Return Performance"
+    },
+    {
+      "id": 50,
+      "ocr_text": "Comparison of Five-Year Cumulative Total Return • Assumes Initial Investment of $100\n\n200.00\n180.00\n160.00\n140.00\n120.00\n100.00\n80.00\n60.00\n40.00\n20.00\n0.00\n\n2014 2015 2016 2017 2018 2019\n\nArrow Financial Corporation NASDAQ Banks Index Russell 2000 Index Zacks $1B-$5B Bank Assets Index"
+    },
+    {
+      "id": 51,
+      "ocr_text": "<table border=\"1\"><tr><td></td><td>2014</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td></tr><tr><td>Arrow Financial Corporation</td><td>100.00</td><td>104.55</td><td>165.68</td><td>147.29</td><td>147.21</td><td>184.59</td></tr><tr><td>NASDAQ Banks Index</td><td>100.00</td><td>108.91</td><td>147.47</td><td>157.10</td><td>130.44</td><td>163.99</td></tr><tr><td>Russell 2000 Index</td><td>100.00</td><td>95.59</td><td>115.95</td><td>132.94</td><td>118.30</td><td>148.49</td></tr><tr><td>Zacks $1B-$5B Bank Assets Index</td><td>100.00</td><td>108.06</td><td>149.08</td><td>161.73</td><td>143.59</td><td>170.48</td></tr></table>"
+    },
+    {
+      "id": 52,
+      "ocr_text": "Comparison of 15-Year Cumulative Total Return • Assumes Initial Investment of $100\n\n350.00\n300.00\n250.00\n200.00\n150.00\n100.00\n50.00\n0.00\n2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019\n\nArrow Financial Corporation\nNASDAQ Banks Index\nRussell 2000 Index\nZacks $1B-$5B Bank Assets Index"
+    },
+    {
+      "id": 53,
+      "ocr_text": "<table border=\"1\"><tr><td></td><td>2004</td><td>2005</td><td>2006</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td></tr><tr><td>Arrow Financial Corporation</td><td>100.00</td><td>89.88</td><td>91.25</td><td>85.41</td><td>104.52</td><td>111.57</td><td>131.92</td><td>120.93</td><td>136.71</td><td>154.26</td><td>169.05</td><td>176.74</td><td>280.07</td><td>249.00</td><td>248.87</td><td>312.06</td></tr><tr><td>NASDAQ Banks Index</td><td>100.00</td><td>97.68</td><td>109.68</td><td>86.80</td><td>63.28</td><td>52.66</td><td>62.62</td><td>56.01</td><td>67.00</td><td>95.90</td><td>100.77</td><td>109.75</td><td>148.60</td><td>158.31</td><td>131.45</td><td>165.25</td></tr><tr><td>Russell 2000 Index</td><td>100.00</td><td>104.51</td><td>123.71</td><td>121.77</td><td>80.62</td><td>102.53</td><td>130.06</td><td>124.62</td><td>145.00</td><td>201.28</td><td>211.13</td><td>201.81</td><td>244.82</td><td>280.69</td><td>249.78</td><td>313.54</td></tr><tr><td>Zacks $1B-$5B Bank Assets Index</td><td>100.00</td><td>98.79</td><td>111.96</td><td>95.27</td><td>76.13</td><td>66.49</td><td>74.17</td><td>72.08</td><td>84.55</td><td>109.61</td><td>118.73</td><td>128.30</td><td>177.00</td><td>192.02</td><td>170.48</td><td>202.41</td></tr></table>"
+    },
+    {
+      "id": 54,
+      "ocr_text": "Source: Prepared by Zacks Investment Research, Inc. Used with permission. All rights reserved. Copyright 1980-2020."
+    },
+    {
+      "id": 55,
+      "ocr_text": "Arrow Financial Corporation"
+    },
+    {
+      "id": 56,
+      "ocr_text": "Board of Directors"
+    },
+    {
+      "id": 57,
+      "ocr_text": "Thomas L. Hoy (Chairman) Retired President and CEO Arrow/Glens Falls National Bank"
+    },
+    {
+      "id": 58,
+      "ocr_text": "Mark L. Behan President Behan Communications, Inc."
+    },
+    {
+      "id": 59,
+      "ocr_text": "Tenée R. Casaccio, AIA President JMZ Architects and Planners, P.C."
+    },
+    {
+      "id": 60,
+      "ocr_text": "Michael B. Clarke Retired President and CEO Lone Star Industries"
+    },
+    {
+      "id": 61,
+      "ocr_text": "Gary C. Dake President Stewart's Shops Corp."
+    },
+    {
+      "id": 62,
+      "ocr_text": "David G. Kruczlnicki Retired President and CEO Glens Falls Hospital"
+    },
+    {
+      "id": 63,
+      "ocr_text": "Elizabeth A. Miller President and CEO Miller Mechanical Services, Inc."
+    },
+    {
+      "id": 64,
+      "ocr_text": "Thomas J. Murphy President and CEO Arrow/Glens Falls National Bank"
+    },
+    {
+      "id": 65,
+      "ocr_text": "Raymond F. O'Conor Chairman and Retired President and CEO Saratoga National Bank"
+    },
+    {
+      "id": 66,
+      "ocr_text": "William L. Owens, Esq. Partner Stafford, Owens, Piller, Murnane Kelleher & Trombley, PLLC"
+    },
+    {
+      "id": 67,
+      "ocr_text": "Colin L. Read, PhD Mayor, City of Plattsburgh Professor of Economics and Finance SUNY Plattsburgh"
+    },
+    {
+      "id": 68,
+      "ocr_text": "Richard J. Reisman, DMD Chairman - Section of Dentistry Glens Falls Hospital"
+    },
+    {
+      "id": 69,
+      "ocr_text": "Director Emeriti"
+    },
+    {
+      "id": 70,
+      "ocr_text": "Herbert O. Carpenter"
+    },
+    {
+      "id": 71,
+      "ocr_text": "John J. Carusone, Jr."
+    },
+    {
+      "id": 72,
+      "ocr_text": "Mary-Elizabeth T. FitzGerald"
+    },
+    {
+      "id": 73,
+      "ocr_text": "Herbert A. Heineman, Jr."
+    },
+    {
+      "id": 74,
+      "ocr_text": "Elizabeth O'Connor Little"
+    },
+    {
+      "id": 75,
+      "ocr_text": "Michael F. Massiano (Chairman Emeritus)"
+    },
+    {
+      "id": 76,
+      "ocr_text": "David L. Moynehan"
+    },
+    {
+      "id": 77,
+      "ocr_text": "John J. Murphy"
+    },
+    {
+      "id": 78,
+      "ocr_text": "Doris E. Ornstein"
+    },
+    {
+      "id": 79,
+      "ocr_text": "Corporate Officers"
+    },
+    {
+      "id": 80,
+      "ocr_text": "Thomas J. Murphy President and CEO"
+    },
+    {
+      "id": 81,
+      "ocr_text": "Edward J. Campanella Senior Vice President, Treasurer and Chief Financial Officer"
+    },
+    {
+      "id": 82,
+      "ocr_text": "David S. DeMarco Senior Vice President and Chief Banking Officer"
+    },
+    {
+      "id": 83,
+      "ocr_text": "David D. Kaiser Senior Vice President"
+    },
+    {
+      "id": 84,
+      "ocr_text": "Andrew J. Wise Senior Vice President and Chief Operating Officer"
+    },
+    {
+      "id": 85,
+      "ocr_text": "Shareholder Information"
+    },
+    {
+      "id": 86,
+      "ocr_text": "Arrow Stock"
+    },
+    {
+      "id": 87,
+      "ocr_text": "Arrow's common stock trades on the NASDAQ Global Select Market $ ^{\\mathrm{SM}} $ under the symbol \"AROW.\""
+    },
+    {
+      "id": 88,
+      "ocr_text": "Dividend Reinvestment Plan"
+    },
+    {
+      "id": 89,
+      "ocr_text": "The Arrow Financial Corporation Dividend Reinvestment Plan offers participants a convenient and economical way to acquire common stock of Arrow Financial Corporation without payment of any brokerage commission or service charge."
+    },
+    {
+      "id": 90,
+      "ocr_text": "Participants may reinvest all cash dividends in additional shares as well as make optional cash contributions to buy shares."
+    },
+    {
+      "id": 91,
+      "ocr_text": "Since the Plan is entirely voluntary, you may join at any time and terminate whenever you wish."
+    },
+    {
+      "id": 92,
+      "ocr_text": "For more information, please contact:"
+    },
+    {
+      "id": 93,
+      "ocr_text": "American Stock Transfer & Trust Company 6201 15th Avenue Brooklyn, NY 11219 Tel: (888) 444-0058 or astfinancial.com"
+    },
+    {
+      "id": 94,
+      "ocr_text": "ARROW Financial Corporation"
+    },
+    {
+      "id": 95,
+      "ocr_text": "Our Family of Companies"
+    },
+    {
+      "id": 96,
+      "ocr_text": "Glens Falls National Bank and Trust Company"
+    },
+    {
+      "id": 97,
+      "ocr_text": "SARATOGA BANK & TRUST COMPANY NATIONAL"
+    },
+    {
+      "id": 98,
+      "ocr_text": "UPSTATE AGENCY LLC\nINSURANCE"
+    },
+    {
+      "id": 99,
+      "ocr_text": "250 Glen Street, PO Box 307\nGlens Falls, NY 12801\n(518) 745-1000\narrowfinancial.com"
+    },
+    {
+      "id": 100,
+      "ocr_text": "Aerial view of Glens Falls, New York, home of Arrow headquarters."
+    }
+  ]
+}

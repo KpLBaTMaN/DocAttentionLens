@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "exported_document_page",
+  "page_id": "dlmm-page-annual-reports-0030-p006",
+  "document_id": "dlmm-doc-annual-reports-0030",
+  "table_ids": [
+    "dlmm-table-annual-reports-0030-e051",
+    "dlmm-table-annual-reports-0030-e053"
+  ],
+  "source_pdf_page_number": 6,
+  "source_pdf_page_count": 8,
+  "image_path": "pages/dlmm-page-annual-reports-0030-p006/page.jpg",
+  "image_sha256": "6735c1b23d128ea47d4d506bf02980005fb8cd231f2c5fcf11734048fbe20b55",
+  "width_pdf_points": 432.0,
+  "height_pdf_points": 648.0,
+  "render_dpi": 300,
+  "image_width": 1800,
+  "image_height": 2700,
+  "source_pdf_sha256": "427dd7cd8486a0138561ff48caa7ca7615973476057f60af9ca69e87c3b3cd10",
+  "source_page_image": "doclayout_mm_rag_examples/annual_reports/document_pages/pdf_30/page_6.jpg",
+  "coordinate_frames": {
+    "table_cells": "table crop pixels, top-left origin, continuous xyxy edges",
+    "page_image": "300 DPI page JPEG pixels, top-left origin",
+    "original_pdf": "PDF points of the report page, top-left origin, y increases down"
+  },
+  "table_refs": [
+    {
+      "table_id": "dlmm-table-annual-reports-0030-e051",
+      "table_revision": "v0001",
+      "sha256": "d32b57dc4632f7652ded7d05e5d87c422640a8b18ada7f24f253195debe52ca2",
+      "path": "structure/dlmm-table-annual-reports-0030-e051/revisions/v0001/table.json"
+    },
+    {
+      "table_id": "dlmm-table-annual-reports-0030-e053",
+      "table_revision": "v0001",
+      "sha256": "112732b0b0773a401a4dd0cab30b0a152a624aea072b76662043a05ff12fd45e",
+      "path": "structure/dlmm-table-annual-reports-0030-e053/revisions/v0001/table.json"
+    }
+  ],
+  "table_bindings": [
+    {
+      "table_id": "dlmm-table-annual-reports-0030-e051",
+      "table_revision": "v0001",
+      "table_sha256": "d32b57dc4632f7652ded7d05e5d87c422640a8b18ada7f24f253195debe52ca2",
+      "grounding_path": "structure/dlmm-table-annual-reports-0030-e051/page_grounding.json",
+      "grounding_sha256": "bc375b69fb4ee38fc286a1f8d43a813abb6a7d7664588a7a503f69196b76e8cb",
+      "binding_status": "page_grounding_verified",
+      "crop_to_page_transform_verified": true,
+      "table_bbox_page": [
+        106.39999707539877,
+        1005.9261957804363,
+        1685.5442047119143,
+        1260.4263305664062
+      ],
+      "crop_to_page": {
+        "from_frame": "crop_pixels",
+        "to_frame": "page_image_pixels",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            106.0
+          ],
+          [
+            0.0,
+            1.0,
+            1005.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "table_id": "dlmm-table-annual-reports-0030-e053",
+      "table_revision": "v0001",
+      "table_sha256": "112732b0b0773a401a4dd0cab30b0a152a624aea072b76662043a05ff12fd45e",
+      "grounding_path": "structure/dlmm-table-annual-reports-0030-e053/page_grounding.json",
+      "grounding_sha256": "b747731b510c08d03c86ce142f7ed566907e7443051ee68727f13ed32d17384a",
+      "binding_status": "page_grounding_verified",
+      "crop_to_page_transform_verified": true,
+      "table_bbox_page": [
+        103.27499707539877,
+        2137.554168701172,
+        1694.9527740478518,
+        2500.372060139974
+      ],
+      "crop_to_page": {
+        "from_frame": "crop_pixels",
+        "to_frame": "page_image_pixels",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            103.0
+          ],
+          [
+            0.0,
+            1.0,
+            2137.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    }
+  ]
+}

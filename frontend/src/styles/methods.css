@@ -1,0 +1,72 @@
+/* Methods area (/toolbox): facet column, compact grouped rows, sticky detail bar.
+   Selectors are scoped to the page root so they win over the shared application rules. */
+.docattentionlens-app .docattentionlens-methods {--docattentionlens-methods-facet-w: 256px; display: flex; flex-direction: column; gap: var(--docattentionlens-s4, 16px); font-size: var(--docattentionlens-text, 13px);}
+.docattentionlens-app .docattentionlens-methods-intro {display: flex; flex-direction: column; gap: var(--docattentionlens-s2, 8px); max-width: 75ch;}
+.docattentionlens-app .docattentionlens-methods-lead {margin: 0; font-size: var(--docattentionlens-text-lg, 14px); color: var(--docattentionlens-ink);}
+.docattentionlens-app .docattentionlens-methods-about summary {font-weight: 600; font-size: var(--docattentionlens-text-sm, 12px); color: var(--docattentionlens-muted);}
+.docattentionlens-app .docattentionlens-methods-about[open] summary {margin-bottom: var(--docattentionlens-s2, 8px);}
+.docattentionlens-app .docattentionlens-methods-about p {margin: 0; color: var(--docattentionlens-muted); font-size: var(--docattentionlens-text, 13px); line-height: 1.5;}
+
+.docattentionlens-app .docattentionlens-methods-layout {
+  display: grid; grid-template-columns: var(--docattentionlens-methods-facet-w) minmax(0, 1fr);
+  grid-template-areas: "facets search" "facets results"; grid-template-rows: auto 1fr;
+  gap: 0 var(--docattentionlens-s5, 24px); align-items: start;
+}
+.docattentionlens-app .docattentionlens-methods-facets {grid-area: facets; position: sticky; top: calc(var(--docattentionlens-header-h, 44px) + var(--docattentionlens-s3, 12px)); max-height: calc(100vh - var(--docattentionlens-header-h, 44px) - var(--docattentionlens-s5, 24px)); overflow: auto; border-right: 1px solid var(--docattentionlens-line); padding-right: var(--docattentionlens-s4, 16px);}
+.docattentionlens-app .docattentionlens-methods-search {grid-area: search; display: flex; align-items: end; justify-content: space-between; gap: var(--docattentionlens-s4, 16px); padding-bottom: var(--docattentionlens-s3, 12px);}
+.docattentionlens-app .docattentionlens-methods-results {grid-area: results; min-width: 0;}
+
+/* Search field: a 28 px control rather than the large shared search input. */
+.docattentionlens-app .docattentionlens-methods .docattentionlens-search {flex: 1; max-width: 520px; margin: 0; gap: var(--docattentionlens-s1, 4px); font-family: var(--docattentionlens-font-mono, Consolas, monospace); font-size: var(--docattentionlens-text-label, 11px); text-transform: uppercase; letter-spacing: .5px; color: var(--docattentionlens-muted);}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-search input {height: 32px; box-sizing: border-box; padding: 0 var(--docattentionlens-s2, 8px); border-radius: 2px; font: inherit; font-family: var(--docattentionlens-font-sans, Arial, sans-serif); text-transform: none; letter-spacing: 0; font-size: var(--docattentionlens-text, 13px); color: var(--docattentionlens-ink);}
+.docattentionlens-app .docattentionlens-methods-tally {margin: 0; color: var(--docattentionlens-muted); font-size: var(--docattentionlens-text-sm, 12px); font-variant-numeric: tabular-nums; white-space: nowrap;}
+
+/* Facets */
+.docattentionlens-app .docattentionlens-methods .docattentionlens-methods-filters-toggle {display: none;}
+.docattentionlens-app .docattentionlens-methods-facet {border: 0; margin: 0 0 var(--docattentionlens-s4, 16px); padding: 0; min-width: 0; display: flex; flex-direction: column; gap: 2px;}
+.docattentionlens-app .docattentionlens-methods-facet legend {padding: 0 0 var(--docattentionlens-s1, 4px); font-family: var(--docattentionlens-font-mono, Consolas, monospace); font-size: var(--docattentionlens-text-label, 11px); text-transform: uppercase; letter-spacing: .5px; color: var(--docattentionlens-muted);}
+.docattentionlens-app .docattentionlens-methods-facet label {display: grid; grid-template-columns: 16px minmax(0, 1fr) auto; align-items: center; gap: var(--docattentionlens-s2, 8px); min-height: 26px; font-size: var(--docattentionlens-text, 13px); color: var(--docattentionlens-ink); cursor: pointer;}
+.docattentionlens-app .docattentionlens-methods-facet label.is-empty {color: var(--docattentionlens-muted); opacity: .6; cursor: default;}
+.docattentionlens-app .docattentionlens-methods-facet input {margin: 0; accent-color: var(--docattentionlens-accent);}
+.docattentionlens-app .docattentionlens-methods-count {font-family: var(--docattentionlens-font-mono, Consolas, monospace); font-size: var(--docattentionlens-text-label, 11px); color: var(--docattentionlens-muted); font-variant-numeric: tabular-nums;}
+.docattentionlens-app .docattentionlens-methods-quiet {padding: 4px 0; border: 0; background: none; color: var(--docattentionlens-accent); font: inherit; font-size: var(--docattentionlens-text-sm, 12px); font-weight: 600; cursor: pointer;}
+.docattentionlens-app .docattentionlens-methods-quiet:disabled {color: var(--docattentionlens-muted); opacity: .6; cursor: default;}
+.docattentionlens-app .docattentionlens-methods-none {display: flex; flex-direction: column; align-items: flex-start; gap: var(--docattentionlens-s2, 8px);}
+.docattentionlens-app .docattentionlens-methods-none .docattentionlens-notice {margin: 0; align-self: stretch;}
+
+/* Family groups and compact rows (about 56 px). */
+.docattentionlens-app .docattentionlens-methods-family + .docattentionlens-methods-family {margin-top: var(--docattentionlens-s5, 24px);}
+.docattentionlens-app .docattentionlens-methods-family h2 {display: flex; align-items: baseline; gap: var(--docattentionlens-s2, 8px); margin: 0; padding: 0 var(--docattentionlens-s3, 12px) var(--docattentionlens-s2, 8px); font-size: var(--docattentionlens-text-lg, 14px); font-weight: 700; border-bottom: 1px solid var(--docattentionlens-line);}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-method-list {border-top: 0;}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-method-row {display: grid; grid-template-columns: minmax(0, 1fr) auto 104px; align-items: center; gap: var(--docattentionlens-s4, 16px); min-height: 56px; box-sizing: border-box; padding: var(--docattentionlens-s2, 8px) var(--docattentionlens-s3, 12px); border-bottom: 1px solid var(--docattentionlens-line);}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-method-row-main {min-width: 0;}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-method-row h3 {margin: 0; font-size: var(--docattentionlens-text, 13px); font-weight: 600; line-height: 18px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-method-row p {margin: 2px 0 0; font-size: var(--docattentionlens-text-sm, 12px); line-height: 16px; color: var(--docattentionlens-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; overflow-wrap: normal;}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-method-row .docattentionlens-kicker {margin: 0; white-space: nowrap; font-family: var(--docattentionlens-font-mono, Consolas, monospace); font-size: var(--docattentionlens-text-label, 11px);}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-method-row .docattentionlens-badge {justify-self: end; padding: 2px 6px; border-radius: 2px; font-family: var(--docattentionlens-font-mono, Consolas, monospace); font-size: var(--docattentionlens-text-label, 11px);}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-method-row.is-planned h3, .docattentionlens-app .docattentionlens-methods .docattentionlens-method-row.is-planned .docattentionlens-badge {color: var(--docattentionlens-muted);}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-method-row.is-planned {background: transparent;}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-method-row.is-planned:hover {background: var(--docattentionlens-wash);}
+.docattentionlens-app .docattentionlens-methods .docattentionlens-method-row:focus-visible {outline-offset: -3px;}
+
+/* Detail: the back link and Return to investigation stay visible while reading. */
+.docattentionlens-app .docattentionlens-methods-detail-bar {position: sticky; top: var(--docattentionlens-header-h, 44px); z-index: 5; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--docattentionlens-s3, 12px); margin: calc(-1 * var(--docattentionlens-s5, 24px)) calc(-1 * var(--docattentionlens-s5, 24px)) 0; padding: var(--docattentionlens-s2, 8px) var(--docattentionlens-s5, 24px); background: var(--docattentionlens-bg); border-bottom: 1px solid var(--docattentionlens-line);}
+.docattentionlens-app .docattentionlens-methods-detail-bar .docattentionlens-button {padding: 4px 12px; min-height: 28px; box-sizing: border-box; border-radius: 2px; font-weight: 600;}
+
+@media (max-width: 900px) {
+  .docattentionlens-app .docattentionlens-methods-layout {grid-template-columns: minmax(0, 1fr); grid-template-areas: "search" "facets" "results"; grid-template-rows: none;}
+  .docattentionlens-app .docattentionlens-methods-facets {position: static; max-height: none; overflow: visible; border-right: 0; padding: 0 0 var(--docattentionlens-s3, 12px);}
+  .docattentionlens-app .docattentionlens-methods .docattentionlens-methods-filters-toggle {display: inline-flex; padding: 4px 12px; min-height: 28px; box-sizing: border-box; border-radius: 2px; font-weight: 600;}
+  .docattentionlens-app .docattentionlens-methods-facet-panel {display: none;}
+  .docattentionlens-app .docattentionlens-methods-facet-panel[data-open] {display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0 var(--docattentionlens-s4, 16px); margin-top: var(--docattentionlens-s3, 12px); padding: var(--docattentionlens-s3, 12px); border: 1px solid var(--docattentionlens-line); background: var(--docattentionlens-panel);}
+  .docattentionlens-app .docattentionlens-methods-facet-panel[data-open] .docattentionlens-methods-quiet {justify-self: start;}
+}
+@media (max-width: 540px) {
+  .docattentionlens-app .docattentionlens-methods .docattentionlens-method-row {grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "main badge" "main kicker"; gap: 2px var(--docattentionlens-s3, 12px); padding-inline: 0;}
+  .docattentionlens-app .docattentionlens-methods .docattentionlens-method-row-main {grid-area: main;}
+  .docattentionlens-app .docattentionlens-methods .docattentionlens-method-row .docattentionlens-kicker {grid-area: kicker; justify-self: end;}
+  .docattentionlens-app .docattentionlens-methods .docattentionlens-method-row .docattentionlens-badge {grid-area: badge;}
+  .docattentionlens-app .docattentionlens-methods-search {flex-direction: column; align-items: stretch;}
+  .docattentionlens-app .docattentionlens-methods-family h2 {padding-inline: 0;}
+  .docattentionlens-app .docattentionlens-methods-detail-bar {margin-inline: -16px; margin-top: -18px; padding-inline: 16px;}
+}

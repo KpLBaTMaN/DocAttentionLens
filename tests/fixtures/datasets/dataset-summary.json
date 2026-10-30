@@ -1,0 +1,1270 @@
+{
+  "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+  "name": "doclayout_mm_rag_bench",
+  "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+  "adapter_version": "doclayout_mm_rag_bench_v1",
+  "counts": {
+    "documents": 80,
+    "pages": 1849,
+    "elements": 25760,
+    "questions": 1559
+  },
+  "domain_counts": {
+    "annual_reports": {
+      "documents": 50,
+      "pages": 1293,
+      "elements": 19513,
+      "questions": 1091
+    },
+    "professional_services_reports": {
+      "documents": 30,
+      "pages": 556,
+      "elements": 6247,
+      "questions": 468
+    }
+  },
+  "domain_aliases": {
+    "pwc_documents": "professional_services_reports"
+  },
+  "element_types": [
+    "caption",
+    "figure",
+    "footnote",
+    "formula",
+    "heading",
+    "listitem",
+    "pagefooter",
+    "pageheader",
+    "pagenumber",
+    "table",
+    "text",
+    "title"
+  ],
+  "element_categories": [
+    "IMAGE",
+    "TABLE",
+    "TEXT"
+  ],
+  "question_types": [
+    "long",
+    "short",
+    "true_or_false"
+  ],
+  "quality_counts": {
+    "empty_ocr_texts": 163,
+    "missing_ocr_joins": 0,
+    "multi_page_support_questions": 427,
+    "bbox_outside_or_degenerate": 50,
+    "maximum_elements_per_page": 72
+  },
+  "quality_issues": [
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_fb80d4ac3d4630c9af41cb5f75d75e632df3a73934910a53dc205f6aa68534cd",
+      "page_id": "page_9faa5a57b01191f181085c3a524f44aa72121cb29cd510c2d4a4c9368526837c",
+      "document_id": "document_29ef72ff2a8f7ae0731ee85422aeec1722dbf64c7491f510a55f8e57b740963d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 5,
+        "page_number": 2,
+        "element_id": 20,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 2492,
+        "y1": -4,
+        "x2": 4962,
+        "y2": 3501
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_e150a99cea572348e83ab8bb94c6802136b107a0373b5935a3a7f43810684a98",
+      "page_id": "page_19d9d78d09aa0faa3c68418db486e9c3f523bc52b6e4ece811356879c5f016c3",
+      "document_id": "document_29ef72ff2a8f7ae0731ee85422aeec1722dbf64c7491f510a55f8e57b740963d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 5,
+        "page_number": 9,
+        "element_id": 156,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 2480,
+        "y1": 2056,
+        "x2": 4961,
+        "y2": 3509
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_45deeb32de9d3c4305f180b18ee585fd3104a7dfabbb70a163a904e2af923156",
+      "page_id": "page_9e83b1eb2b6d033cce5c7cc26fbf051d5cce2b45c9ddbab436dd1d46bcb79ac2",
+      "document_id": "document_29ef72ff2a8f7ae0731ee85422aeec1722dbf64c7491f510a55f8e57b740963d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 5,
+        "page_number": 29,
+        "element_id": 678,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 4544,
+        "y1": 38,
+        "x2": 4964,
+        "y2": 470
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_463f856471d5f41b2d2a4bd006c5d9fdec59a56ed299eafb0d0ab20a1ac60d3f",
+      "page_id": "page_31d077c9af253ebbbac117324e472e38de09e0c8c8785f61ba601ffcd7cbdf83",
+      "document_id": "document_29ef72ff2a8f7ae0731ee85422aeec1722dbf64c7491f510a55f8e57b740963d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 5,
+        "page_number": 36,
+        "element_id": 824,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 4544,
+        "y1": 151,
+        "x2": 4964,
+        "y2": 479
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_d9c5795e17cea9aff136623a922caf0b0ae8b5f12bd9b2aa0a6ac5c5dff614d6",
+      "page_id": "page_76e31eda711ba78827d8159bac4c89b26c7d736e908bb2878baa5f8039654b35",
+      "document_id": "document_29ef72ff2a8f7ae0731ee85422aeec1722dbf64c7491f510a55f8e57b740963d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 5,
+        "page_number": 40,
+        "element_id": 887,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 4012,
+        "y1": 254,
+        "x2": 4964,
+        "y2": 1390
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_4b379912eeba315ad4ed129e8e6200fb525b30cfdd4176b971eed05825287563",
+      "page_id": "page_74627b168b3d7620eac56c03e49f710ac3be527e07f0c8c3a2523104200ff95d",
+      "document_id": "document_29ef72ff2a8f7ae0731ee85422aeec1722dbf64c7491f510a55f8e57b740963d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 5,
+        "page_number": 43,
+        "element_id": 906,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 4018,
+        "y1": 236,
+        "x2": 4966,
+        "y2": 1388
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_c9b330cb7a4ab525d6a185ee5b0751cb5dce06b991377e4af02cf1a46f75e550",
+      "page_id": "page_29433cb346bcfb4bdf37cc9e8268fe9af3cdd94b12fd8bd35b90224494f838ac",
+      "document_id": "document_29ef72ff2a8f7ae0731ee85422aeec1722dbf64c7491f510a55f8e57b740963d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 5,
+        "page_number": 47,
+        "element_id": 942,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 4032,
+        "y1": 224,
+        "x2": 4964,
+        "y2": 1380
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_dc7db3de7c90623c5d394c80a3a7c2aea9696a14b568c8b94278480de8930446",
+      "page_id": "page_d7c5ea6e75d55a8f750d8f800a9b8d819d79b46f5d1b4cf1a9517608e6de96e1",
+      "document_id": "document_f9518238d1b707b3ebbc24606d52317ccc364dc6acb3dc17127e6d7b02df3c13",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 6,
+        "page_number": 13,
+        "element_id": 140,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 0,
+        "y1": -4,
+        "x2": 2480,
+        "y2": 1288
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_166905777f312dfa6a0191058c76efebf3a4c795ee0f8dda9b462684397a834d",
+      "page_id": "page_a2bcde20c54ee2b828f3a781592a2cbc6fa9f18aa5636ac1c36c17051ac6d79a",
+      "document_id": "document_f9518238d1b707b3ebbc24606d52317ccc364dc6acb3dc17127e6d7b02df3c13",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 6,
+        "page_number": 15,
+        "element_id": 165,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": -1,
+        "y1": 1,
+        "x2": 1235,
+        "y2": 1873
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_3b410b4f2dc2bfa4f4755d89db5aa74dd42027f2899d25f19b673326e6eeb40a",
+      "page_id": "page_45be35ac6a842e502286d64fdff4b9ad7f8954f308e2859f9194b5b1ee46bd3d",
+      "document_id": "document_f9518238d1b707b3ebbc24606d52317ccc364dc6acb3dc17127e6d7b02df3c13",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 6,
+        "page_number": 31,
+        "element_id": 443,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 6,
+        "y1": 604,
+        "x2": 2486,
+        "y2": 2496
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_69d2cd33a1795fdaa6c9fad2b3c645a2fea0a9e39b25a7f9305c248d51eb8e35",
+      "page_id": "page_ee16a812a7ce8420a6e45b0033d819a70828d1fe77d327dc383c42cf333831c1",
+      "document_id": "document_f9518238d1b707b3ebbc24606d52317ccc364dc6acb3dc17127e6d7b02df3c13",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 6,
+        "page_number": 42,
+        "element_id": 528,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": -2,
+        "y1": 604,
+        "x2": 2474,
+        "y2": 2408
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_5c7a077cf30f3fdc0672f17fc79f9c9e07b30e290b4217d78a30aa613be688a6",
+      "page_id": "page_058d0e8034778403398524ede7928e33d5225d80123c8f7e8829114798fdc0a7",
+      "document_id": "document_8545b5b084e19ea55acf6e162a2ccde6f7a8ca728bf009597051dc13d261abc6",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 9,
+        "page_number": 3,
+        "element_id": 7,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 1091,
+        "y1": 1,
+        "x2": 2547,
+        "y2": 3577
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_611bcc92fa2a4e365febf61d0e2601028acb3bec3f8d13acb9e5f25cf8f57db7",
+      "page_id": "page_205e90864b030a5b804c32ef3794cca4980aadf970d5d952079ea04416df9106",
+      "document_id": "document_389d727288e3547440a16687979d99991b6e95b779b1dc9f157241f644d93d9d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 10,
+        "page_number": 7,
+        "element_id": 113,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 2600,
+        "y1": 340,
+        "x2": 3512,
+        "y2": 1112
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_6d1bfdf3841bf04c5a0f5d03978f3e5c89e385905e1f31197a02451e8f50a3d7",
+      "page_id": "page_205e90864b030a5b804c32ef3794cca4980aadf970d5d952079ea04416df9106",
+      "document_id": "document_389d727288e3547440a16687979d99991b6e95b779b1dc9f157241f644d93d9d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 10,
+        "page_number": 7,
+        "element_id": 119,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 2004,
+        "y1": 1706,
+        "x2": 2656,
+        "y2": 2482
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_46b4426b292204bec2c82ed2e22d99349e8bde57337e6dcd08bdd44890116bd7",
+      "page_id": "page_da30642bcea2d37821ff2cc96d800d5e2ce297129cc7959ee840f73c45925a27",
+      "document_id": "document_389d727288e3547440a16687979d99991b6e95b779b1dc9f157241f644d93d9d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 10,
+        "page_number": 19,
+        "element_id": 328,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 2,
+        "y1": 488,
+        "x2": 3510,
+        "y2": 2044
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_dd4cd879de14bd195d9c62a8d589197cc0fe38c1514c0e0f04fa440ac4b2b877",
+      "page_id": "page_92c8235895338f0cbafbc717a9a5113e0593604fa055bc1d0fab9ea776cd9ac4",
+      "document_id": "document_9cb1c947a1865fe8ef3ba2f88c69f299d1300e81f17597bd39bab13550395186",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 14,
+        "page_number": 11,
+        "element_id": 96,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": -4,
+        "y1": 2196,
+        "x2": 660,
+        "y2": 2896
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_7c666818bf6f8e560e9f7a2f5bc4878c12325707d64c4fe7e21ce13eaba372c7",
+      "page_id": "page_4759032d2e1695dc398550cca060b58c795a765728593389f5cbd3f727cb4b61",
+      "document_id": "document_ecacfa9fea233bf63c956db4bbba26e4b3bf8d8bd8ae3b890700cf9572ebcf1a",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 16,
+        "page_number": 1,
+        "element_id": 4,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 0,
+        "y1": 664,
+        "x2": 2624,
+        "y2": 3376
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_67dc2cf7236172dcc1b75dc664e608977f60f355d339093c6b183ccc95e26601",
+      "page_id": "page_7214ca21baf0a2306a7ca4867a517bd85873818c8d92edc04bcebd1af83ee360",
+      "document_id": "document_51ac645f7326e20655960d75de30e118282ecfc95baffda42a7b8de3a7ad307e",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 18,
+        "page_number": 6,
+        "element_id": 80,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 3436,
+        "y1": 1746,
+        "x2": 4896,
+        "y2": 3302
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_a29a891ebf0300ac8342051f8313d66f98dbd5c007df557cbc7f6ea0a2e0f01b",
+      "page_id": "page_4396ce2a6e19ed584840f104293f55b99d4006deb730d4eee8e6987d36e4f525",
+      "document_id": "document_51ac645f7326e20655960d75de30e118282ecfc95baffda42a7b8de3a7ad307e",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 18,
+        "page_number": 10,
+        "element_id": 140,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 2472,
+        "y1": 1168,
+        "x2": 5104,
+        "y2": 3304
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_0f5a6d2f055dd10263b9ec2325258e0caef3ba9d9d2fd85e3bacc78d93875036",
+      "page_id": "page_889e36897607f5d875bed09eba497ac2e0e0644e9983e9dc0e809b2423e5900f",
+      "document_id": "document_3fa3bf0258f4922e66c32fafb055734c254e8303c50cf1f6713f4b4fe01f8f7f",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 19,
+        "page_number": 5,
+        "element_id": 76,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 1120,
+        "y1": 2072,
+        "x2": 2472,
+        "y2": 3228
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_49e7369be3bc4a17e449efba96dc869b0a1d68b022e21da478f6c6739aaccd43",
+      "page_id": "page_f6a01f23c50f24c781059cd95efba2601e23da23edec0b0fb733280478a5e8ac",
+      "document_id": "document_771fa376bf29542ec53ff0abcc0c6299f5fc19e71ae017e67f7a49e70166b7ea",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 20,
+        "page_number": 4,
+        "element_id": 17,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": -4,
+        "y1": 1968,
+        "x2": 2476,
+        "y2": 2916
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_c7598be3bb7de01200137e4d9f2e482d861f56a77866dce87ef20fe421b17287",
+      "page_id": "page_f6a01f23c50f24c781059cd95efba2601e23da23edec0b0fb733280478a5e8ac",
+      "document_id": "document_771fa376bf29542ec53ff0abcc0c6299f5fc19e71ae017e67f7a49e70166b7ea",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 20,
+        "page_number": 4,
+        "element_id": 18,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 88,
+        "y1": 3244,
+        "x2": 510,
+        "y2": 3559
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_342253b1c0c9401475084e07eda3e177e82bdfb8c383d3c4f62babb3471bc612",
+      "page_id": "page_a88e7cf466fb42ae29928e8ad052c0bb4c1eaa86dd0085633762129b872991b2",
+      "document_id": "document_771fa376bf29542ec53ff0abcc0c6299f5fc19e71ae017e67f7a49e70166b7ea",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 20,
+        "page_number": 8,
+        "element_id": 59,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": -2,
+        "y1": 1968,
+        "x2": 2478,
+        "y2": 2916
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_a2272a439f4fbbe6d252f5b664e431364d944fa48992df4ce5e62818e9e90733",
+      "page_id": "page_a88e7cf466fb42ae29928e8ad052c0bb4c1eaa86dd0085633762129b872991b2",
+      "document_id": "document_771fa376bf29542ec53ff0abcc0c6299f5fc19e71ae017e67f7a49e70166b7ea",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 20,
+        "page_number": 8,
+        "element_id": 60,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 96,
+        "y1": 3248,
+        "x2": 521,
+        "y2": 3548
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_3c0730cbf662d56da92ce7766953eec03e33289f4a0bbb4159025b68cb187992",
+      "page_id": "page_59f6ce6ff9809510495493a9591ab184ccf0ea96b0a4a4161ba0708a091bc821",
+      "document_id": "document_771fa376bf29542ec53ff0abcc0c6299f5fc19e71ae017e67f7a49e70166b7ea",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 20,
+        "page_number": 11,
+        "element_id": 130,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": -6,
+        "y1": 2352,
+        "x2": 2478,
+        "y2": 3296
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_9d6dcea5de86c41e5828ac623118991bb23aa21977f5e94d7761f3f067baf219",
+      "page_id": "page_6d90f4b5a4f839eee975bc9eeacacc52400ff1bd6f5a0fe5c95b9a6f4ae3fc78",
+      "document_id": "document_771fa376bf29542ec53ff0abcc0c6299f5fc19e71ae017e67f7a49e70166b7ea",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 20,
+        "page_number": 16,
+        "element_id": 204,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 92,
+        "y1": 3248,
+        "x2": 516,
+        "y2": 3536
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_d28e14f24b5a5ed7a4771c3c87cdae155f1ecf12fe5d1bdcb2339a18247a2388",
+      "page_id": "page_5538856f060d2330770709a628f2481342018304097b5960d48328679092fa4c",
+      "document_id": "document_a274d8f2905adb418ca281ea1dc7617e2e0a8a4610e5d425e05c17e16aa302f9",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 21,
+        "page_number": 12,
+        "element_id": 159,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": -4,
+        "y1": -4,
+        "x2": 2481,
+        "y2": 3504
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_c549070e3ca00b0ab3334dc7e008d268f50e689d298dd581e61f785099efa996",
+      "page_id": "page_1caf152e73a0d602be28d87b57777019bc036e71168f37ecc58d61c1b1559ead",
+      "document_id": "document_a274d8f2905adb418ca281ea1dc7617e2e0a8a4610e5d425e05c17e16aa302f9",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 21,
+        "page_number": 14,
+        "element_id": 212,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 2476,
+        "y1": -4,
+        "x2": 4956,
+        "y2": 3504
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_75092754cae16af3a042ee2a216bf5dab532e29c3e72f587b38273180f21447d",
+      "page_id": "page_23cbc484b2b035ca0db2db3c7530f0be7e0a34c45225a4dfc79449b7d740551f",
+      "document_id": "document_4a516cfbc631ac7efd494d521efdadd05383c660f357854fcee8c93a646a630d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 23,
+        "page_number": 4,
+        "element_id": 60,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 2480,
+        "y1": 2,
+        "x2": 4956,
+        "y2": 3510
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_d775c73356a1fa39ad776e2ac0be62333b8d5ad040a941b9888264119e19fffe",
+      "page_id": "page_012bc2dce4ec0f559a222c41a63109793964e6ceaece9b95c70f6e35cd766292",
+      "document_id": "document_4a516cfbc631ac7efd494d521efdadd05383c660f357854fcee8c93a646a630d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 23,
+        "page_number": 13,
+        "element_id": 248,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 0,
+        "y1": 2,
+        "x2": 2480,
+        "y2": 3510
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_f1ee2b69b324766f6090bcf78c5411a79d717d244914c4c99e49a3ed705acb2e",
+      "page_id": "page_053f411be03252b7d8a141eeff086148d2877e2021f420a1cde1db059909037f",
+      "document_id": "document_4a516cfbc631ac7efd494d521efdadd05383c660f357854fcee8c93a646a630d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 23,
+        "page_number": 20,
+        "element_id": 530,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 0,
+        "y1": -4,
+        "x2": 2472,
+        "y2": 3508
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_c88723920c22ff26aae0aef5046fdbad17a6360aa4d4f2dead304e19c3eb9372",
+      "page_id": "page_3ce2daff8e468cbac5e2ff4ba2095f645b69b029cbc9c7dcdd0afe27693edb23",
+      "document_id": "document_f4679fdd261eadeeea5893264b6b2f3a3e1c3fd8d53d197c779ecf2ddac2869b",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 32,
+        "page_number": 12,
+        "element_id": 154,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 1853,
+        "y1": 609,
+        "x2": 2853,
+        "y2": 3037
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_916617e160ec67ef10142b30ce7ed9966d3384ff1523431e9ec8a306a8e7e92f",
+      "page_id": "page_4794e59e6835a3b05126e114873216f41ebe5dfaa970ff3f3f68a6a772871ade",
+      "document_id": "document_270eb46a69144f554288d8da4456a63bfc5e7ac8fe1aef6eb35a100feb723534",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 33,
+        "page_number": 2,
+        "element_id": 4,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 444,
+        "y1": 2920,
+        "x2": 2552,
+        "y2": 3040
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_6ac5cbcd09c4cfa9cb19650b7fbdaae559670672450fde90ba4b789eaa505e40",
+      "page_id": "page_1cc6e3bad192f93e6db4a38c36ef0760b74fb8ecea64d8c7a6bfe673d7166642",
+      "document_id": "document_270eb46a69144f554288d8da4456a63bfc5e7ac8fe1aef6eb35a100feb723534",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 33,
+        "page_number": 10,
+        "element_id": 165,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 0,
+        "y1": -2,
+        "x2": 2544,
+        "y2": 1086
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_a413e23be2fd27bfe88c324ddbcacd0f80f6b751c7bceb5b3494f3bc1488bccd",
+      "page_id": "page_dbb0fe2cfcecc6f1d0aceb981f6c7b44886c09f9e825694a24d05ffecc7e3e7a",
+      "document_id": "document_4263d5030a95e2c0e52dd3b66533f56308c62d4b81ef979df47d7947fb207aa1",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 34,
+        "page_number": 2,
+        "element_id": 9,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": -4,
+        "y1": 968,
+        "x2": 2548,
+        "y2": 2400
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_befc781543f0bef4c6d1b8178d9333c136fca10c5583a8547d318177fa6ad3d5",
+      "page_id": "page_befc781543f0bef4c6d1b8178d9333c136fca10c5583a8547d318177fa6ad3d5",
+      "document_id": "document_b074cbd580c57f88d6f5fceae2399964caed8715c7a13a4fe345cd7d661c660b",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 35,
+        "page_number": 1,
+        "element_id": 1,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 1,
+        "y1": 0,
+        "x2": 2553,
+        "y2": 2976
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_b0bc9056acd452a7c5e53fde91938ec5e18565975c0bfb0b526180bd8545378f",
+      "page_id": "page_3fcb8d785d54d45ce856c8c36eebe035107c71f4071f70a1eeed31910d138ec6",
+      "document_id": "document_b074cbd580c57f88d6f5fceae2399964caed8715c7a13a4fe345cd7d661c660b",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 35,
+        "page_number": 11,
+        "element_id": 125,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 1,
+        "y1": -1,
+        "x2": 2553,
+        "y2": 3299
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_7943edc8b0d9dc460b02ceff509c66647a5bc8ead861302d767f929020f94744",
+      "page_id": "page_6b0641899faddb47be5d3be5076201d4395eb844d33acddd86d9f38437997ad6",
+      "document_id": "document_b074cbd580c57f88d6f5fceae2399964caed8715c7a13a4fe345cd7d661c660b",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 35,
+        "page_number": 13,
+        "element_id": 143,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": -4,
+        "y1": -6,
+        "x2": 2548,
+        "y2": 3290
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_2b92a6ea218675abc9990d49e42c295dd92fdccf9377572f1a70a8e0d43af8ba",
+      "page_id": "page_8e145c4a963a7d7e54d4b4320b627288abe962ae6bcf4c9e57b1a4b8d5932677",
+      "document_id": "document_98616c4123775214b3cd6302f587a2b7d076d489640ae8c94904af11bc5b29d8",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 36,
+        "page_number": 4,
+        "element_id": 17,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 1,
+        "y1": -1,
+        "x2": 2549,
+        "y2": 3151
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_d62c1384ee8c0271411858ec9fa4d8caec310f40acc7474ff01401fc05628874",
+      "page_id": "page_64d8247a34f8d4651f7a7dfe5305e57e57953153fa4e1e982bc91ccaedbd3e8b",
+      "document_id": "document_2dbf71d332c65dd77829a63df463e8bc9f42db11ca5784bad69c2c9fa9281564",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 38,
+        "page_number": 1,
+        "element_id": 3,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 4,
+        "y1": 2736,
+        "x2": 1108,
+        "y2": 3332
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_474084120d94923a1efefbf6196d4de10cceb123d4d21371b54cc504f5c31ddd",
+      "page_id": "page_811266bc1cdc46c4f42cc16df2c4144c9702443203ab9284166dab95129a551d",
+      "document_id": "document_119b60c92ae2f94c51e1a7eae96782c37981a9642e7099d89005f053e211297d",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 40,
+        "page_number": 5,
+        "element_id": 59,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 3373,
+        "y1": 1079,
+        "x2": 4501,
+        "y2": 2227
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_b00a04ecc336f76bfb6fa2e0a40ea5f10c518d67c3708a9f0e88d0bd7d2b0399",
+      "page_id": "page_3b6a4dd520b437f9ab660d3db10ca02eb181449e2092921bd15f31eed4b0b8ee",
+      "document_id": "document_8ecea09e0ab51d099adeaeef88e34138da88892020b2c76a5a48304109ba2cc3",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 41,
+        "page_number": 1,
+        "element_id": 5,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 1441,
+        "y1": 1936,
+        "x2": 2521,
+        "y2": 2700
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_df9e2777fae9753c3a0f38cbe7d520e1f934922aef470d6fd65ec47561029205",
+      "page_id": "page_c6097b91b61d40ba339e38969acb8c8b3d3ae955e0b8aad3a381686ac0dcccda",
+      "document_id": "document_2bbd3ed517381a23bdd8c0703e9e3045997089f325f38ff6cca2541c3b30ca5e",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 42,
+        "page_number": 12,
+        "element_id": 119,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 2560,
+        "y1": 1128,
+        "x2": 2580,
+        "y2": 2168
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_143be01b8eb7d3c359dc451a384e799cd6c99bccdb8e7bf0fa0ee5978dbb713e",
+      "page_id": "page_93951fc190797a59cbc6c17ed863ce28e9a952f020f35f25bc15cb7be2b1b8a9",
+      "document_id": "document_a32803e47e5e8250a142a02f5902749d7921d723bc67739d199a5b34e6198f2e",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 44,
+        "page_number": 11,
+        "element_id": 85,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 52,
+        "y1": 224,
+        "x2": 1000,
+        "y2": 3304
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_6e4b7362eded099eb340f3761e7e30700360bc016cfa6f74c5292f841630dd77",
+      "page_id": "page_6e4b7362eded099eb340f3761e7e30700360bc016cfa6f74c5292f841630dd77",
+      "document_id": "document_1acb040fc25b3c295ac13a313c65044841be20288b91df937af2f4abb4e3a47f",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 46,
+        "page_number": 1,
+        "element_id": 1,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 1,
+        "y1": 1,
+        "x2": 2553,
+        "y2": 3301
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_1cfb7ed254fda6e31c6131d716713b85c80e4f2862c19191f167a1336de1befc",
+      "page_id": "page_1cfb7ed254fda6e31c6131d716713b85c80e4f2862c19191f167a1336de1befc",
+      "document_id": "document_1acb040fc25b3c295ac13a313c65044841be20288b91df937af2f4abb4e3a47f",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 46,
+        "page_number": 2,
+        "element_id": 2,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 0,
+        "y1": -1,
+        "x2": 2544,
+        "y2": 2755
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_c8e1c496ddda0f7ae19ca3cf9e5ace83cb7286d26a26d4371b84d8a304c1d025",
+      "page_id": "page_1513c1f96d192ffef3eb23998efe798ce3c06002b6801573a8aa55005afedaa6",
+      "document_id": "document_1acb040fc25b3c295ac13a313c65044841be20288b91df937af2f4abb4e3a47f",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 46,
+        "page_number": 10,
+        "element_id": 59,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 1960,
+        "y1": 0,
+        "x2": 2552,
+        "y2": 2404
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_7af8c7a5ec2bf4100d491eafcd78a45eed48e0429aab876cd87037135c39d889",
+      "page_id": "page_3bc9f9327fcb571ea12d21fdd06c2c8f66ba7be4c26df85e2585b5fe641bb4e9",
+      "document_id": "document_1acb040fc25b3c295ac13a313c65044841be20288b91df937af2f4abb4e3a47f",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 46,
+        "page_number": 13,
+        "element_id": 92,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 0,
+        "y1": 2333,
+        "x2": 2548,
+        "y2": 3301
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_805767fc6311879a1743f14b65b23fa706990ac246ec9c6df2e7b7b2e8a52bbb",
+      "page_id": "page_a40d24eda464695456db9720b00f3d89d0c6e72e11e14bb589e157f4527174e5",
+      "document_id": "document_1acb040fc25b3c295ac13a313c65044841be20288b91df937af2f4abb4e3a47f",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 46,
+        "page_number": 20,
+        "element_id": 134,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 2144,
+        "y1": 6,
+        "x2": 2556,
+        "y2": 3298
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    },
+    {
+      "code": "bbox_outside_or_degenerate",
+      "element_id": "element_c5483f3c5e960fc53b03e0e3b8746d38f6c23ff5d7c9025b1c53a1f85ef6881b",
+      "page_id": "page_3f9c142418df173a2f1863897101bef6de9d9f816ba7871985213f15af783272",
+      "document_id": "document_8cd173742b5598044e963181a9286e7221cc8fec7e53a68ff8e6bc212655c000",
+      "ref": {
+        "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+        "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+        "domain": "annual_reports",
+        "document_id": 48,
+        "page_number": 3,
+        "element_id": 16,
+        "question_id": null
+      },
+      "raw_bbox": {
+        "x1": 0,
+        "y1": 4,
+        "x2": 2552,
+        "y2": 1124
+      },
+      "detail": "out_of_bounds; original coordinates preserved"
+    }
+  ],
+  "source_manifest": {
+    "total_pages": 1849,
+    "total_annotations": 1559,
+    "total_elements": 25760,
+    "domains": {
+      "annual_reports": {
+        "document_count": 50,
+        "total_pages": 1293,
+        "total_annotations": 1091,
+        "total_elements": 19513,
+        "source_ids": [
+          66,
+          67,
+          68,
+          71,
+          73,
+          80,
+          100,
+          108,
+          109,
+          110,
+          111,
+          115,
+          116,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156
+        ]
+      },
+      "pwc_documents": {
+        "document_count": 30,
+        "total_pages": 556,
+        "total_annotations": 468,
+        "total_elements": 6247,
+        "source_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      }
+    },
+    "finalized_only": true
+  },
+  "source_file_count": 2172,
+  "json_snapshot_sha256": "03dae26ef94b3d14c5a9d8c1f7cefec2ee54e1f15a6d967493a91001c576fa67",
+  "coordinate_convention": "Source image pixels, top-left origin; one-based page numbers.",
+  "geometry_validation": "Source boxes preserved; display alignment requires representative visual validation."
+}

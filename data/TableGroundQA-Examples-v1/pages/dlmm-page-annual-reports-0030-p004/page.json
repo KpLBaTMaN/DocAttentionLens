@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "exported_document_page",
+  "page_id": "dlmm-page-annual-reports-0030-p004",
+  "document_id": "dlmm-doc-annual-reports-0030",
+  "table_ids": [
+    "dlmm-table-annual-reports-0030-e046"
+  ],
+  "source_pdf_page_number": 4,
+  "source_pdf_page_count": 8,
+  "image_path": "pages/dlmm-page-annual-reports-0030-p004/page.jpg",
+  "image_sha256": "4eb604264a5d364f9860654b0af6640fccda848dae074343c1b5145b09e7a5d8",
+  "width_pdf_points": 432.0,
+  "height_pdf_points": 648.0,
+  "render_dpi": 300,
+  "image_width": 1800,
+  "image_height": 2700,
+  "source_pdf_sha256": "427dd7cd8486a0138561ff48caa7ca7615973476057f60af9ca69e87c3b3cd10",
+  "source_page_image": "doclayout_mm_rag_examples/annual_reports/document_pages/pdf_30/page_4.jpg",
+  "coordinate_frames": {
+    "table_cells": "table crop pixels, top-left origin, continuous xyxy edges",
+    "page_image": "300 DPI page JPEG pixels, top-left origin",
+    "original_pdf": "PDF points of the report page, top-left origin, y increases down"
+  },
+  "table_refs": [
+    {
+      "table_id": "dlmm-table-annual-reports-0030-e046",
+      "table_revision": "v0001",
+      "sha256": "b0444a9650e085d2b7338b22623f6741a5d6853cbdafd1e4907e682707e852c4",
+      "path": "structure/dlmm-table-annual-reports-0030-e046/revisions/v0001/table.json"
+    }
+  ],
+  "table_bindings": [
+    {
+      "table_id": "dlmm-table-annual-reports-0030-e046",
+      "table_revision": "v0001",
+      "table_sha256": "b0444a9650e085d2b7338b22623f6741a5d6853cbdafd1e4907e682707e852c4",
+      "grounding_path": "structure/dlmm-table-annual-reports-0030-e046/page_grounding.json",
+      "grounding_sha256": "90469d640839e864435fe289ae3a386f34c4b904517da121973d6a1453ba16a1",
+      "binding_status": "page_grounding_verified",
+      "crop_to_page_transform_verified": true,
+      "table_bbox_page": [
+        102.66916751861574,
+        192.2166347503662,
+        1696.4341481526694,
+        2357.553354899089
+      ],
+      "crop_to_page": {
+        "from_frame": "crop_pixels",
+        "to_frame": "page_image_pixels",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            102.0
+          ],
+          [
+            0.0,
+            1.0,
+            192.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+/* Compact top bar shared by every route. Its height is shared with the workspace, which fits the first screen
+   below it. Routes may place context (breadcrumb, lens tabs, save) into .docattentionlens-header-context via HeaderSlot. */
+.docattentionlens-app {--docattentionlens-header-h:48px;}
+.docattentionlens-app .docattentionlens-header {
+  position:sticky;top:0;z-index:30;flex-shrink:0;box-sizing:border-box;
+  display:flex;align-items:center;gap:var(--docattentionlens-s3);height:var(--docattentionlens-header-h);padding:0 var(--docattentionlens-s3);
+  background:var(--docattentionlens-surface);border-bottom:1px solid var(--docattentionlens-line);
+}
+.docattentionlens-app .docattentionlens-header .docattentionlens-brand {display:flex;align-items:center;flex-shrink:0;min-width:0;align-self:stretch;padding-right:var(--docattentionlens-s1);text-decoration:none;color:var(--docattentionlens-ink);}
+.docattentionlens-app .docattentionlens-header .docattentionlens-brand-word {font-size:var(--docattentionlens-text-lg);font-weight:600;letter-spacing:-.2px;white-space:nowrap;}
+.docattentionlens-app .docattentionlens-header .docattentionlens-primary-nav {display:flex;flex-wrap:nowrap;flex-shrink:0;align-self:stretch;min-width:0;}
+.docattentionlens-app .docattentionlens-header .docattentionlens-primary-nav>a {
+  display:flex;align-items:center;padding:0 var(--docattentionlens-s3);
+  border-bottom:2px solid transparent;border-top:2px solid transparent;
+  text-decoration:none;color:var(--docattentionlens-muted);font-size:var(--docattentionlens-text);font-weight:500;white-space:nowrap;
+}
+.docattentionlens-app .docattentionlens-header .docattentionlens-primary-nav>a:hover {color:var(--docattentionlens-ink);background:var(--docattentionlens-raised);}
+.docattentionlens-app .docattentionlens-header .docattentionlens-primary-nav>a.active {color:var(--docattentionlens-ink);background:var(--docattentionlens-wash);border-bottom-color:var(--docattentionlens-accent);}
+.docattentionlens-app .docattentionlens-header .docattentionlens-header-context {flex:1;min-width:0;display:flex;align-items:center;gap:var(--docattentionlens-s2);align-self:stretch;}
+.docattentionlens-app .docattentionlens-header .docattentionlens-service-status {display:flex;align-items:center;gap:6px;flex-shrink:0;color:var(--docattentionlens-muted);font-size:var(--docattentionlens-text-sm);white-space:nowrap;}
+.docattentionlens-app .docattentionlens-header .docattentionlens-service-dot {width:8px;height:8px;border-radius:50%;border:1px solid currentColor;}
+.docattentionlens-app .docattentionlens-header .docattentionlens-service-status[data-state="unavailable"] {color:var(--docattentionlens-error);}
+.docattentionlens-app .docattentionlens-header .docattentionlens-service-status[data-state="unavailable"] .docattentionlens-service-dot {background:currentColor;}
+.docattentionlens-app .docattentionlens-header .docattentionlens-theme-toggle {flex-shrink:0;color:var(--docattentionlens-muted);}
+.docattentionlens-app .docattentionlens-header .docattentionlens-theme-toggle:hover {color:var(--docattentionlens-ink);}
+.docattentionlens-app .docattentionlens-skip {z-index:40;}
+@media(max-width:900px) {
+  .docattentionlens-app .docattentionlens-header {gap:var(--docattentionlens-s2);padding:0 var(--docattentionlens-s2);}
+  .docattentionlens-app .docattentionlens-header .docattentionlens-primary-nav>a {padding:0 10px;}
+  /* The dot stays visible; the text remains available to assistive technology. */
+  .docattentionlens-app .docattentionlens-header .docattentionlens-service-text {position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}
+}
+@media(max-width:560px) {
+  .docattentionlens-app .docattentionlens-header .docattentionlens-brand {display:none;}
+  .docattentionlens-app .docattentionlens-header .docattentionlens-primary-nav>a {padding:0 var(--docattentionlens-s2);}
+}
+@media(pointer:coarse) {
+  .docattentionlens-app .docattentionlens-header .docattentionlens-theme-toggle {width:40px;height:40px;min-width:40px;min-height:40px;}
+}

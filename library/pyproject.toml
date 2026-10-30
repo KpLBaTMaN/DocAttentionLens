@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docattentionlens"
+version = "0.1.0"
+description = "Research contracts and operations for document-centred multimodal investigation"
+license = "AGPL-3.0-or-later"
+requires-python = ">=3.12,<3.13"
+dependencies = ["pydantic==2.11.4", "Pillow==12.3.0", "numpy==2.3.5"]
+
+[project.optional-dependencies]
+generator = ["torch==2.9.1", "transformers==4.57.6", "accelerate==1.12.0", "torchvision==0.24.1"]
+colpali = ["torch==2.9.1", "transformers==4.57.6", "accelerate==1.12.0", "sentencepiece==0.2.1"]
+
+[project.scripts]
+docattentionlens = "docattentionlens.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"docattentionlens.methods" = ["catalogue.json"]

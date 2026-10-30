@@ -1,0 +1,56 @@
+/* Library area (/artifacts), scoped to the page root so these rules win over the shared ones. */
+.docattentionlens-app .docattentionlens-library {display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: var(--docattentionlens-s5, 24px); align-items: start; font-size: var(--docattentionlens-text, 13px);}
+
+/* Side list */
+.docattentionlens-app .docattentionlens-library-nav {position: sticky; top: calc(var(--docattentionlens-header-h, 44px) + var(--docattentionlens-s3, 12px)); border-right: 1px solid var(--docattentionlens-line); padding-right: var(--docattentionlens-s3, 12px);}
+.docattentionlens-app .docattentionlens-library-nav ul {list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1px;}
+.docattentionlens-app .docattentionlens-library-nav a {display: flex; align-items: center; min-height: 32px; box-sizing: border-box; padding: 0 var(--docattentionlens-s3, 12px); border-left: 2px solid transparent; border-radius: 0 2px 2px 0; color: var(--docattentionlens-muted); text-decoration: none; white-space: nowrap;}
+.docattentionlens-app .docattentionlens-library-nav a:hover {color: var(--docattentionlens-ink); background: var(--docattentionlens-wash);}
+.docattentionlens-app .docattentionlens-library-nav a.active {color: var(--docattentionlens-ink); background: var(--docattentionlens-wash); border-left-color: var(--docattentionlens-accent); font-weight: 600;}
+.docattentionlens-app .docattentionlens-library-group {margin: var(--docattentionlens-s4, 16px) 0 var(--docattentionlens-s1, 4px); padding-left: var(--docattentionlens-s3, 12px); font-family: var(--docattentionlens-font-mono, Consolas, monospace); font-size: var(--docattentionlens-text-label, 11px); text-transform: uppercase; letter-spacing: .5px; color: var(--docattentionlens-muted);}
+.docattentionlens-app .docattentionlens-library-body {min-width: 0;}
+.docattentionlens-app .docattentionlens-library-body > h2:first-child, .docattentionlens-app .docattentionlens-library-body h2 {font-size: 17px; margin: 0 0 var(--docattentionlens-s2, 8px);}
+.docattentionlens-app .docattentionlens-library-body > h2 ~ h2 {margin-top: var(--docattentionlens-s5, 24px);}
+.docattentionlens-app .docattentionlens-library-body > p {color: var(--docattentionlens-muted); max-width: 75ch; margin: 0 0 var(--docattentionlens-s2, 8px);}
+
+/* Section header with a secondary action (Jobs, and the Inputs registration header). */
+.docattentionlens-app .docattentionlens-library-head, .docattentionlens-app .docattentionlens-library .docattentionlens-job-launch {display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: var(--docattentionlens-s3, 12px) var(--docattentionlens-s5, 24px); padding: 0 0 var(--docattentionlens-s3, 12px); margin-bottom: var(--docattentionlens-s3, 12px); border: 0; border-bottom: 1px solid var(--docattentionlens-line); background: none;}
+.docattentionlens-app .docattentionlens-library-head h2, .docattentionlens-app .docattentionlens-library .docattentionlens-job-launch h2 {margin: 0;}
+.docattentionlens-app .docattentionlens-library-head p, .docattentionlens-app .docattentionlens-library .docattentionlens-job-launch p {margin: var(--docattentionlens-s1, 4px) 0 0; color: var(--docattentionlens-muted); font-size: var(--docattentionlens-text-sm, 12px); max-width: 75ch;}
+.docattentionlens-app .docattentionlens-library-head-actions {display: flex; flex-wrap: wrap; align-items: center; gap: var(--docattentionlens-s3, 12px);}
+.docattentionlens-app .docattentionlens-library-worker {color: var(--docattentionlens-muted); font-size: var(--docattentionlens-text-sm, 12px);}
+.docattentionlens-app .docattentionlens-library-head .docattentionlens-button:not(.docattentionlens-primary), .docattentionlens-app .docattentionlens-library .docattentionlens-job-launch .docattentionlens-button:not(.docattentionlens-primary), .docattentionlens-app .docattentionlens-library .docattentionlens-actions .docattentionlens-button:not(.docattentionlens-primary), .docattentionlens-app .docattentionlens-library-body > .docattentionlens-button:not(.docattentionlens-primary) {min-height: 28px; box-sizing: border-box; padding: 4px 12px; border-radius: 2px; background: transparent; font-weight: 600; font-size: var(--docattentionlens-text, 13px);}
+
+/* Record rows: name first; metadata, time and state on a muted second line. */
+.docattentionlens-app .docattentionlens-library .docattentionlens-record-list {margin: 0 0 var(--docattentionlens-s4, 16px); border-top: 1px solid var(--docattentionlens-line);}
+.docattentionlens-app .docattentionlens-library-head + .docattentionlens-record-list, .docattentionlens-app .docattentionlens-library .docattentionlens-job-launch + .docattentionlens-record-list {border-top: 0;}
+.docattentionlens-app .docattentionlens-library .docattentionlens-record-list li {display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: var(--docattentionlens-s3, 12px); border-bottom: 1px solid var(--docattentionlens-line);}
+.docattentionlens-app .docattentionlens-library .docattentionlens-record-list li:hover {background: var(--docattentionlens-wash);}
+.docattentionlens-app .docattentionlens-library .docattentionlens-record-list a {display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px var(--docattentionlens-s3, 12px); min-height: 52px; box-sizing: border-box; padding: var(--docattentionlens-s2, 8px) var(--docattentionlens-s3, 12px); border: 0; grid-template-columns: none; min-width: 0;}
+.docattentionlens-app .docattentionlens-library .docattentionlens-record-list a > strong {flex: 1 0 100%; min-width: 0; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.docattentionlens-app .docattentionlens-library .docattentionlens-record-list a > span:not(.docattentionlens-badge), .docattentionlens-app .docattentionlens-library .docattentionlens-record-list a > time {font-size: var(--docattentionlens-text-sm, 12px); color: var(--docattentionlens-muted); overflow-wrap: anywhere;}
+.docattentionlens-app .docattentionlens-library .docattentionlens-record-list time {font-variant-numeric: tabular-nums;}
+.docattentionlens-app .docattentionlens-library .docattentionlens-record-list .docattentionlens-badge {padding: 1px 6px; border-radius: 2px; font-family: var(--docattentionlens-font-mono, Consolas, monospace); font-size: var(--docattentionlens-text-label, 11px);}
+
+/* Identifiers: muted, monospace, truncated, with the full value in title and a copy button. */
+.docattentionlens-app .docattentionlens-record-id {display: inline-flex; align-items: center; gap: var(--docattentionlens-s1, 4px); min-width: 0; padding-right: var(--docattentionlens-s3, 12px);}
+.docattentionlens-app .docattentionlens-record-id code {display: block; max-width: 18ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; overflow-wrap: normal; font-family: var(--docattentionlens-font-mono, Consolas, monospace); font-size: var(--docattentionlens-text-label, 11px); color: var(--docattentionlens-muted); font-variant-numeric: tabular-nums;}
+.docattentionlens-app .docattentionlens-record-copy {min-height: 24px; padding: 0 6px; border: 1px solid transparent; border-radius: 2px; background: none; color: var(--docattentionlens-muted); font: inherit; font-size: var(--docattentionlens-text-label, 11px); cursor: pointer; white-space: nowrap;}
+.docattentionlens-app .docattentionlens-record-copy:hover {color: var(--docattentionlens-ink); border-color: var(--docattentionlens-line);}
+
+/* Planned sections reached by URL. */
+.docattentionlens-app .docattentionlens-library .docattentionlens-empty {padding: var(--docattentionlens-s5, 24px) 0; gap: var(--docattentionlens-s3, 12px);}
+
+@media (max-width: 900px) {
+  .docattentionlens-app .docattentionlens-library {grid-template-columns: minmax(0, 1fr); gap: var(--docattentionlens-s4, 16px);}
+  .docattentionlens-app .docattentionlens-library-nav {position: static; display: flex; align-items: center; gap: var(--docattentionlens-s1, 4px); padding: 0 0 2px; border-right: 0; border-bottom: 1px solid var(--docattentionlens-line); overflow-x: auto; scrollbar-width: thin;}
+  .docattentionlens-app .docattentionlens-library-nav ul {flex-direction: row; flex-shrink: 0;}
+  .docattentionlens-app .docattentionlens-library-nav a {border-left: 0; border-bottom: 2px solid transparent; border-radius: 0; padding: 0 var(--docattentionlens-s3, 12px);}
+  .docattentionlens-app .docattentionlens-library-nav a.active {border-bottom-color: var(--docattentionlens-accent);}
+  .docattentionlens-app .docattentionlens-library-group {flex-shrink: 0; margin: 0; padding: 0 var(--docattentionlens-s1, 4px) 0 var(--docattentionlens-s3, 12px); border-left: 1px solid var(--docattentionlens-line);}
+}
+@media (max-width: 540px) {
+  .docattentionlens-app .docattentionlens-library .docattentionlens-record-list li {grid-template-columns: minmax(0, 1fr); gap: 0;}
+  .docattentionlens-app .docattentionlens-library .docattentionlens-record-list a {padding-inline: 0; min-height: 0; padding-bottom: 2px;}
+  .docattentionlens-app .docattentionlens-record-id {padding: 0 0 var(--docattentionlens-s2, 8px);}
+}

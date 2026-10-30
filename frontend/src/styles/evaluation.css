@@ -1,0 +1,12 @@
+.docattentionlens-evaluation-form{max-width:1200px}
+.docattentionlens-evaluation-form>label,.docattentionlens-evaluation-form fieldset>label{display:block;margin:16px 0}
+.docattentionlens-evaluation-form input:not([type=checkbox]),.docattentionlens-evaluation-form textarea,.docattentionlens-evaluation-form select{display:block;width:100%;max-width:800px;margin-top:6px}
+.docattentionlens-evaluation-form fieldset{border:1px solid var(--docattentionlens-line);padding:16px;margin:16px 0;min-width:0}
+.docattentionlens-evaluation-slot{border:1px solid var(--docattentionlens-line);padding:16px;margin:12px 0}
+.docattentionlens-evaluation-form pre,.docattentionlens-section pre{white-space:pre-wrap;overflow-wrap:anywhere}
+.docattentionlens-evaluation-form .docattentionlens-table-scroll{max-width:100%;overflow-x:auto;border:1px solid var(--docattentionlens-line);margin:16px 0}
+.docattentionlens-evaluation-form table{width:100%;min-width:1050px;border-collapse:collapse}
+.docattentionlens-evaluation-form th,.docattentionlens-evaluation-form td{padding:12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--docattentionlens-line)}
+.docattentionlens-evaluation-form th{min-width:140px;max-width:220px}
+.docattentionlens-evaluation-form td{max-width:320px;overflow-wrap:anywhere}
+.docattentionlens-evaluation-form td:first-child{min-width:155px;white-space:nowrap}

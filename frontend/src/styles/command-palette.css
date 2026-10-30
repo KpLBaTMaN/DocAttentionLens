@@ -1,0 +1,26 @@
+/* Command palette (Ctrl/Cmd + K) and the keyboard shortcut sheet (?). */
+.docattentionlens-palette-backdrop {position:fixed;inset:0;z-index:60;display:flex;justify-content:center;align-items:flex-start;padding:12vh var(--docattentionlens-s4) var(--docattentionlens-s4);background:#0006;}
+.docattentionlens-palette {display:flex;flex-direction:column;width:min(640px,100%);max-height:min(70dvh,560px);background:var(--docattentionlens-float);color:var(--docattentionlens-ink);border:1px solid var(--docattentionlens-line);border-radius:var(--docattentionlens-radius);box-shadow:var(--docattentionlens-shadow);font-size:var(--docattentionlens-text);}
+.docattentionlens-palette-search {display:flex;align-items:center;gap:var(--docattentionlens-s2);padding:var(--docattentionlens-s2) var(--docattentionlens-s3);border-bottom:1px solid var(--docattentionlens-line);color:var(--docattentionlens-muted);}
+.docattentionlens-app .docattentionlens-palette-search input {flex:1;min-width:0;height:36px;margin:0;padding:0 var(--docattentionlens-s1);border:0;background:transparent;color:var(--docattentionlens-ink);font:inherit;font-size:var(--docattentionlens-text-lg);outline:none;}
+.docattentionlens-palette-list {flex:1;min-height:0;overflow:auto;padding:var(--docattentionlens-s1);overscroll-behavior:contain;}
+.docattentionlens-palette-option {display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:baseline;gap:var(--docattentionlens-s2);padding:6px 10px;border-radius:var(--docattentionlens-radius);cursor:pointer;}
+.docattentionlens-palette-option[aria-selected=true] {background:var(--docattentionlens-raised);box-shadow:inset 3px 0 0 var(--docattentionlens-accent);}
+.docattentionlens-palette-option[aria-disabled=true] {cursor:not-allowed;color:var(--docattentionlens-muted);}
+.docattentionlens-palette-label {min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.docattentionlens-palette-hint,.docattentionlens-palette-reason {max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:var(--docattentionlens-text-sm);color:var(--docattentionlens-muted);}
+.docattentionlens-palette-reason {font-style:italic;}
+.docattentionlens-palette-group {font-family:var(--docattentionlens-font-mono);font-size:var(--docattentionlens-text-label);letter-spacing:.06em;text-transform:uppercase;color:var(--docattentionlens-muted);}
+.docattentionlens-app .docattentionlens-palette-empty {margin:0;padding:var(--docattentionlens-s3);color:var(--docattentionlens-muted);}
+.docattentionlens-app .docattentionlens-palette-foot {margin:0;padding:6px var(--docattentionlens-s3);border-top:1px solid var(--docattentionlens-line);font-family:var(--docattentionlens-font-mono);font-size:var(--docattentionlens-text-label);color:var(--docattentionlens-muted);}
+/* Shortcut sheet */
+.docattentionlens-shortcuts {width:min(560px,100%);max-height:min(80dvh,640px);overflow:auto;padding:var(--docattentionlens-s3) var(--docattentionlens-s4) var(--docattentionlens-s4);}
+.docattentionlens-shortcuts-head {display:flex;align-items:center;justify-content:space-between;gap:var(--docattentionlens-s2);}
+.docattentionlens-app .docattentionlens-shortcuts h2 {margin:0;font-size:var(--docattentionlens-text-lg);}
+.docattentionlens-app .docattentionlens-shortcuts h3 {margin:var(--docattentionlens-s3) 0 var(--docattentionlens-s1);font-family:var(--docattentionlens-font-mono);font-size:var(--docattentionlens-text-label);font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--docattentionlens-muted);}
+.docattentionlens-app .docattentionlens-shortcuts dl {display:grid;grid-template-columns:max-content minmax(0,1fr);gap:6px var(--docattentionlens-s3);margin:0;}
+.docattentionlens-shortcuts dt {display:flex;gap:4px;white-space:nowrap;}
+.docattentionlens-shortcuts dd {margin:0;color:var(--docattentionlens-ink);}
+.docattentionlens-shortcuts kbd {display:inline-block;min-width:20px;padding:0 5px;border:1px solid var(--docattentionlens-line);border-bottom-width:2px;border-radius:var(--docattentionlens-radius);background:var(--docattentionlens-surface);font-family:var(--docattentionlens-font-mono);font-size:var(--docattentionlens-text-label);line-height:20px;text-align:center;}
+.docattentionlens-app .docattentionlens-shortcuts .docattentionlens-shortcuts-note {margin:var(--docattentionlens-s3) 0 0;font-size:var(--docattentionlens-text-sm);color:var(--docattentionlens-muted);}
+@media(max-width:600px) {.docattentionlens-palette-backdrop {padding:var(--docattentionlens-s2);align-items:flex-start;} .docattentionlens-palette-group {display:none;}}

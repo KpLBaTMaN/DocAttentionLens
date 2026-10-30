@@ -1,0 +1,295 @@
+{
+  "page": {
+    "key": "page_983464692a17bed36bb725b0fbfb75c749f53d3fa570662a1d3bff335e2b1feb",
+    "page_id": "page_983464692a17bed36bb725b0fbfb75c749f53d3fa570662a1d3bff335e2b1feb",
+    "document_id": "document_5200d6b95a0affbc53f85f31b9404b730376549e52cffe810a51684d46d72fd9",
+    "ref": {
+      "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+      "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+      "domain": "annual_reports",
+      "document_id": 1,
+      "page_number": 3,
+      "element_id": null,
+      "question_id": null
+    },
+    "page_number": 3,
+    "width": 2480,
+    "height": 3509,
+    "image_sha256": "d71ce40d93324443844705cec3c00d7389cbf8d3fa592141ac9d423c6134b0bd",
+    "image_url": "/api/v1/pages/page_983464692a17bed36bb725b0fbfb75c749f53d3fa570662a1d3bff335e2b1feb/image",
+    "coordinate_space": {
+      "units": "source_image_pixels",
+      "origin": "top_left",
+      "bbox_format": "x1_y1_x2_y2",
+      "x_direction": "right",
+      "y_direction": "down"
+    },
+    "orientation": "portrait",
+    "spread_status": "not_annotated"
+  },
+  "document": {
+    "key": "document_5200d6b95a0affbc53f85f31b9404b730376549e52cffe810a51684d46d72fd9",
+    "document_id": "document_5200d6b95a0affbc53f85f31b9404b730376549e52cffe810a51684d46d72fd9",
+    "ref": {
+      "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+      "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+      "domain": "annual_reports",
+      "document_id": 1,
+      "page_number": null,
+      "element_id": null,
+      "question_id": null
+    },
+    "native_id": 1,
+    "filename": "air-partner_2004",
+    "total_pages": 40,
+    "page_ids": [
+      "page_e4b65555b9163e754ffef45d99c0f84cbdc48cf3da8e9382b665d5e2ae1e5736",
+      "page_44433ffe4d950e28775a2b820599f36b50c5a1b7a4ee7010e7ac9dbe68b8a1a6",
+      "page_983464692a17bed36bb725b0fbfb75c749f53d3fa570662a1d3bff335e2b1feb",
+      "page_dbdf34d0a7ab5a1163702ee9c8cabac0dc2c355fb9a161acf14db0686c03abfd",
+      "page_560d7ab70d05bd0631faf410829001be8a3e359916cfc76efd1e09ba8745b844",
+      "page_8058ce030b6f304ea19e0ae07a3d36c68d02c030d58cb0e2502a4eb879051478",
+      "page_ca454e3ea768763907b8812084ca2f36d64d47bdc022990aa9c47ce114c9a408",
+      "page_54c89d01c632937636732804645d3af8cf3fb7e058e6e31c49c6b7b6cc38f527",
+      "page_b5b6d7c0f479f8bd0c619442890ee3a1fcc1a514c0a3dea25eba4ce725a7bba1",
+      "page_0ea92898704ba284a58eda8eef56254eed1879cab8d5c7f62c265c0528a70071",
+      "page_c9248369635516c2eecd0fa584bb594f1d94d3455e5569906de6adf73fdbd4c3",
+      "page_2e709d617d1a2588931501497a63795223b423785a5b82328e5a568b7edb2c3a",
+      "page_87981f0418130d47d404198838bff94c189617fb9a2471979bae554323e420ae",
+      "page_98805aa630a41ac8a553b3ad97d070322f794f868460b3d81a5f07fea010230e",
+      "page_333f3f4ff90ae403690e1e0dedcd620565a11a57d0c063bd55c093f7b91b8c45",
+      "page_2f6a5dfdaf160786bd5facb89c81a356a0d9801c7e2a7d6c0531cdb1fd768717",
+      "page_320229a3011f7d6b35acce761910015e41640b15d8c48b848e9db788e1219adc",
+      "page_e5acdf2eeffed20c485dbc0f3acb4f80cffd34470d2a5658956c18877ae912f4",
+      "page_c882966a6e4f2e55d663e1d50bc363f883d9342844dec4a6e78980606b291b8c",
+      "page_51daaac1d7e73ca3eb2173c310249f0f12a62092b8be6f2f13c2d55cb6e4c6d3",
+      "page_44eb84eba6b85669708c12ff4737f8a6ad0fbb510c0f5fc26a7eaf3389df6669",
+      "page_cf001737ac607b7e8cfd109fada115082ef7422c99e8cd34fdb2007585b03a1a",
+      "page_2312a25f834154769314fb1039d775fd1ef6e9921dc1b6c966b5e902573308dc",
+      "page_d6d0e553744f73b84addd53d23a043d4f71b908cede3c80add4d9b09bbf28e62",
+      "page_0e85f3d654ae169e5fae4c24f5c74e5140012350b060206515ea1e8e039055eb",
+      "page_294219726ddc8b8511e709ccab9b6d18ee34dc24742914eff23978a92ecd47bd",
+      "page_6d914f633b4de980c422823057cd9f79ff6599dc56cc3765ed55879b5cfc7795",
+      "page_0c5abf19f98aed8682efd5e31e5295e8cd4737ffb7f5ef8043eb44c6b786c269",
+      "page_a017892509ea16202e9c5dbd6ab6a122419c9c96eed712ecd1d9b29d397432e5",
+      "page_16961e3ce677bdf7a0a1b15b914e1e390081c829eed96a54483e0bc186396ef6",
+      "page_321a4aede4b26bf87eca7234d1b7c3b624673032e14210459a8637e2570b0825",
+      "page_10c2063613f8730434f6423207e14f41c9888e3517bb8a81126674a4985e27d0",
+      "page_3101454d4e483d7897f15a0d457f302a7edd955940d1022adda48087542e4b8b",
+      "page_424f403672bbcda3b12155f0712e86db766e4e6d662da7d4c644d7aa9401ceeb",
+      "page_b46a58f52d41feb2f76aa7d203690d6279c6dbf82425ed103af9cf137331e69b",
+      "page_5597e6f41197b185111b256fe7179d3a76fafdb230d7af98fc420d498f093e34",
+      "page_24e5afd3b86874caf9d485fbb19261728e9949389ca1167698a8ece18e138063",
+      "page_7bb3cfdcdf82143607635eaf0cfa6ee2fa0bfa258f2b33832a66df846bc6ef24",
+      "page_ab7fbdb2d5addb8220063d4e0ac16493d94232c4f6e78aa2d8ada06b01da690a",
+      "page_1d08006ec9f83bf0540e94ed2546d90e0630fa0af777d83165069ff877021b45"
+    ],
+    "question_count": 12,
+    "element_count": 652,
+    "annotation_version": "293bfbeea7e914153d2ec081a0ed40ac5d14cc9c05d33201d31bf1074f96c138",
+    "source_pdf_sha256": "47a7467dead345a1443b14ee3ea99beda7a6e871ec0d5dd7812195c2214db98d",
+    "ocr_model": "glm-ocr",
+    "ocr_status": "complete"
+  },
+  "elements": {
+    "items": [
+      {
+        "key": "element_656f23768bfaa5567445c1e5ddae4eb05d64ea1c79df6bf2b7eb30a66d29e77b",
+        "element_id": "element_656f23768bfaa5567445c1e5ddae4eb05d64ea1c79df6bf2b7eb30a66d29e77b",
+        "page_id": "page_983464692a17bed36bb725b0fbfb75c749f53d3fa570662a1d3bff335e2b1feb",
+        "document_id": "document_5200d6b95a0affbc53f85f31b9404b730376549e52cffe810a51684d46d72fd9",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 1,
+          "page_number": 3,
+          "element_id": 46,
+          "question_id": null
+        },
+        "native_id": 46,
+        "page_number": 3,
+        "element_type": "text",
+        "element_category": "TEXT",
+        "bbox": {
+          "x1": 173,
+          "y1": 592,
+          "x2": 2319,
+          "y2": 862
+        },
+        "level": 2,
+        "reading_order": 1,
+        "ocr": {
+          "status": "present",
+          "text": "We are entirely focused on establishing Air Partner as the only truly global air charter provider. Charter that comes with quality, dependability, financial security and a consistency echoed the whole world over. One world, one standard."
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 173,
+          "y1": 592,
+          "x2": 2319,
+          "y2": 862
+        },
+        "display_geometry_policy": "raw"
+      },
+      {
+        "key": "element_de3eec49086894740b2c93c43c09e159200755d3449e03d0e282c4985fd92ee9",
+        "element_id": "element_de3eec49086894740b2c93c43c09e159200755d3449e03d0e282c4985fd92ee9",
+        "page_id": "page_983464692a17bed36bb725b0fbfb75c749f53d3fa570662a1d3bff335e2b1feb",
+        "document_id": "document_5200d6b95a0affbc53f85f31b9404b730376549e52cffe810a51684d46d72fd9",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 1,
+          "page_number": 3,
+          "element_id": 47,
+          "question_id": null
+        },
+        "native_id": 47,
+        "page_number": 3,
+        "element_type": "text",
+        "element_category": "TEXT",
+        "bbox": {
+          "x1": 178,
+          "y1": 919,
+          "x2": 2319,
+          "y2": 1988
+        },
+        "level": 2,
+        "reading_order": 2,
+        "ocr": {
+          "status": "present",
+          "text": "Air Partner is best described as a global trading floor for aircraft charter. The team of over 100 aviation professionals and support staff is by far the largest dedicated to chartering corporate aircraft anywhere. We specialise in providing quality advice, personal recommendation and the smart procurement of all types of aircraft, worldwide - a team equally at home organising a Lear Jet to fly the CEO around Europe or North America, as co-ordinating 70 large passenger jets together moving 10,000 guests to a major product launch at some Riviera destination. The size, scale, experience and quality of the team and the service are unique. Last year our team contracted over 35,000 flight hours, despatching flights to the four corners of the earth on a daily basis."
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 178,
+          "y1": 919,
+          "x2": 2319,
+          "y2": 1988
+        },
+        "display_geometry_policy": "raw"
+      },
+      {
+        "key": "element_cc59f706844af32268516cef91acda9d952e09fcb6d8f95be4c2c1bf36eae497",
+        "element_id": "element_cc59f706844af32268516cef91acda9d952e09fcb6d8f95be4c2c1bf36eae497",
+        "page_id": "page_983464692a17bed36bb725b0fbfb75c749f53d3fa570662a1d3bff335e2b1feb",
+        "document_id": "document_5200d6b95a0affbc53f85f31b9404b730376549e52cffe810a51684d46d72fd9",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 1,
+          "page_number": 3,
+          "element_id": 48,
+          "question_id": null
+        },
+        "native_id": 48,
+        "page_number": 3,
+        "element_type": "figure",
+        "element_category": "IMAGE",
+        "bbox": {
+          "x1": 1022,
+          "y1": 2025,
+          "x2": 2311,
+          "y2": 3291
+        },
+        "level": 2,
+        "reading_order": 3,
+        "ocr": {
+          "status": "present",
+          "text": "73,784 89,166 100,700 114,671 100,597\n2,667 2,177 4,029 2,859 3,709\n2000 2001 2002 2003 2004\n2000 2001 2002 2003 2004\n\nTurnover £000\nProfit before tax £000\n\n17.4 15.4 29.5 18.8 25.0\n20.2 11.2 19.1 13.6 15.0\n2000 2001 2002 2003 2004\n10.2\n2000 2001 2002 2003 2004\n\nBasic earnings per share Pence\nDividend per share Pence"
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 1022,
+          "y1": 2025,
+          "x2": 2311,
+          "y2": 3291
+        },
+        "display_geometry_policy": "raw"
+      },
+      {
+        "key": "element_ae19d170471d812cf97366b451c442eea8fbf252b1a5d78b58738db977cc9148",
+        "element_id": "element_ae19d170471d812cf97366b451c442eea8fbf252b1a5d78b58738db977cc9148",
+        "page_id": "page_983464692a17bed36bb725b0fbfb75c749f53d3fa570662a1d3bff335e2b1feb",
+        "document_id": "document_5200d6b95a0affbc53f85f31b9404b730376549e52cffe810a51684d46d72fd9",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 1,
+          "page_number": 3,
+          "element_id": 49,
+          "question_id": null
+        },
+        "native_id": 49,
+        "page_number": 3,
+        "element_type": "pagefooter",
+        "element_category": "TEXT",
+        "bbox": {
+          "x1": 173,
+          "y1": 3401,
+          "x2": 679,
+          "y2": 3434
+        },
+        "level": 1,
+        "reading_order": 4,
+        "ocr": {
+          "status": "present",
+          "text": "Air Partner PLC Annual report 2004"
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 173,
+          "y1": 3401,
+          "x2": 679,
+          "y2": 3434
+        },
+        "display_geometry_policy": "raw"
+      },
+      {
+        "key": "element_8fe86bdee462f82b1a1fa375589ba262386ca47be578f8e9f9860dcf1f685444",
+        "element_id": "element_8fe86bdee462f82b1a1fa375589ba262386ca47be578f8e9f9860dcf1f685444",
+        "page_id": "page_983464692a17bed36bb725b0fbfb75c749f53d3fa570662a1d3bff335e2b1feb",
+        "document_id": "document_5200d6b95a0affbc53f85f31b9404b730376549e52cffe810a51684d46d72fd9",
+        "ref": {
+          "dataset_id": "dataset_feb226a6d6ee1e59eaaf756c40997ccb24927cf7e516fc3adb1f8a4cff72fb96",
+          "dataset_version": "5111bf33e6ea7e2fbdbd72a0f0b5fe90cc93f3a198ed07b3dedba6d5d0b8c1d3",
+          "domain": "annual_reports",
+          "document_id": 1,
+          "page_number": 3,
+          "element_id": 50,
+          "question_id": null
+        },
+        "native_id": 50,
+        "page_number": 3,
+        "element_type": "pagenumber",
+        "element_category": "TEXT",
+        "bbox": {
+          "x1": 2308,
+          "y1": 3392,
+          "x2": 2348,
+          "y2": 3436
+        },
+        "level": 1,
+        "reading_order": 5,
+        "ocr": {
+          "status": "present",
+          "text": "1"
+        },
+        "geometry_flags": [],
+        "display_bbox": {
+          "x1": 2308,
+          "y1": 3392,
+          "x2": 2348,
+          "y2": 3436
+        },
+        "display_geometry_policy": "raw"
+      }
+    ],
+    "total": 5,
+    "coordinate_convention": "Source image pixels with top-left origin."
+  }
+}

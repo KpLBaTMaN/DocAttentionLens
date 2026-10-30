@@ -1,0 +1,10 @@
+.docattentionlens-experiment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}
+.docattentionlens-experiment-arm{border:1px solid var(--docattentionlens-line,#555);padding:16px;min-width:0}
+.docattentionlens-experiment-arm svg{display:block;width:100%;height:auto;background:white}
+.docattentionlens-experiment-arm pre,.docattentionlens-experiment-launch pre{white-space:pre-wrap;overflow-wrap:anywhere}
+.docattentionlens-experiment-launch{margin:20px 0}
+.docattentionlens-experiment-launch fieldset{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}
+.docattentionlens-experiment-launch td small{display:block;max-width:500px;overflow-wrap:anywhere}
+.docattentionlens-experiment-launch .docattentionlens-table-scroll{max-height:480px;overflow:auto;margin:16px 0}
+.docattentionlens-context-preview{max-width:100%;max-height:600px;object-fit:contain;background:white}
+@media(max-width:850px){.docattentionlens-experiment-grid{grid-template-columns:1fr}}

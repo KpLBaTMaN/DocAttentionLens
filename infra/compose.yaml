@@ -1,0 +1,111 @@
+name: docattentionlens
+x-backend: &backend
+  image: docattentionlens-backend:0.1.0
+  build:
+    context: ..
+    dockerfile: backend/Dockerfile
+  environment: &backend-env
+    DOCATTENTIONLENS_DATABASE_URL: postgresql://docattentionlens:${DOCATTENTIONLENS_DB_PASSWORD:-docattentionlens-local-only}@metadata:5432/docattentionlens
+    DOCATTENTIONLENS_DATA_ROOT: /datasets
+    DOCATTENTIONLENS_ARTIFACT_ROOT: /artifacts
+    DOCATTENTIONLENS_MODEL_CACHE: /model-cache
+  volumes:
+    - ../data/doclayout_mm_rag_bench:/datasets/doclayout_mm_rag_bench:ro
+    - ../data/TableGroundQA-Pilot-v1:/datasets/TableGroundQA-Pilot-v1:ro
+    - ../data/doclayout_mm_rag_examples:/datasets/doclayout_mm_rag_examples:ro
+    - ../data/TableGroundQA-Examples-v1:/datasets/TableGroundQA-Examples-v1:ro
+    - artifact-store:/artifacts
+    - model-cache:/model-cache
+services:
+  metadata:
+    restart: unless-stopped
+    image: postgres:17.5-alpine
+    environment:
+      POSTGRES_USER: docattentionlens
+      POSTGRES_PASSWORD: ${DOCATTENTIONLENS_DB_PASSWORD:-docattentionlens-local-only}
+      POSTGRES_DB: docattentionlens
+    ports: ['127.0.0.1:5432:5432']
+    volumes: [metadata-store:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U docattentionlens -d docattentionlens]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+  migrate:
+    <<: *backend
+    command: [python, -m, docattentionlens_api.migrate]
+    depends_on:
+      metadata: {condition: service_healthy}
+  api:
+    <<: *backend
+    restart: unless-stopped
+    command: [uvicorn, docattentionlens_api.main:app, --host, 0.0.0.0, --port, '8000']
+    ports: ['127.0.0.1:8000:8000']
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health/ready', timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 20
+  worker-cpu:
+    <<: *backend
+    restart: unless-stopped
+    command: [python, -m, docattentionlens_worker.main]
+    environment:
+      <<: *backend-env
+      DOCATTENTIONLENS_WORKER_RESOURCE_CLASS: cpu
+      DOCATTENTIONLENS_WORKER_CONCURRENCY: '1'
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    healthcheck:
+      test: [CMD, python, -m, docattentionlens_worker.health]
+      interval: 5s
+      timeout: 4s
+      retries: 5
+  frontend:
+    restart: unless-stopped
+    build:
+      context: ..
+      dockerfile: frontend/Dockerfile
+    ports: ['127.0.0.1:8080:80']
+    depends_on:
+      api: {condition: service_healthy}
+    healthcheck:
+      test: [CMD, wget, -q, -O, /dev/null, http://127.0.0.1/health/ready]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  worker-gpu:
+    <<: *backend
+    restart: unless-stopped
+    image: docattentionlens-worker-gpu:0.1.0
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile.gpu
+    profiles: [gpu]
+    command: [python, -m, docattentionlens_worker.main]
+    environment:
+      <<: *backend-env
+      DOCATTENTIONLENS_WORKER_RESOURCE_CLASS: gpu
+      DOCATTENTIONLENS_WORKER_CONCURRENCY: '1'
+      HF_HOME: /model-cache
+      HF_HUB_DISABLE_XET: '1'
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    healthcheck:
+      test: [CMD, python, -m, docattentionlens_worker.health]
+      interval: 5s
+      timeout: 4s
+      retries: 5
+volumes:
+  metadata-store:
+  artifact-store:
+  model-cache:

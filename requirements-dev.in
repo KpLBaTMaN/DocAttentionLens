@@ -1,0 +1,6 @@
+-r backend/requirements.in
+pytest==8.3.5
+httpx==0.28.1
+build==1.2.2.post1
+pip-tools==7.4.1
+setuptools==80.9.0

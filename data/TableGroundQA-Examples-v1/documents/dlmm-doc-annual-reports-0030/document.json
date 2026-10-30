@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "exported_document",
+  "document_id": "dlmm-doc-annual-reports-0030",
+  "title": "Arrow Financial Corporation 2019 Annual Report",
+  "source_document_key": "annual_reports/30",
+  "filename": "NASDAQ_AROW_2019",
+  "doi": null,
+  "license": null,
+  "attribution": "Arrow Financial Corporation 2019 Annual Report (NASDAQ_AROW_2019), from the doclayout-mm-rag benchmark",
+  "identity": {
+    "status": "benchmark_document",
+    "method": "Same report as doclayout_mm_rag_examples annual_reports document 30; page images and PDF are byte-identical"
+  },
+  "source": "doclayout_mm_rag_examples: the doclayout-mm-rag benchmark's annual_reports document 30",
+  "source_pdf": {
+    "path": "doclayout_mm_rag_examples/annual_reports/pdfs/pdf_30.pdf",
+    "sha256": "427dd7cd8486a0138561ff48caa7ca7615973476057f60af9ca69e87c3b3cd10",
+    "page_count": 8,
+    "full_document_included": false
+  },
+  "split_group_id": "dlmm-doc-annual-reports-0030",
+  "upstream_split": null,
+  "page_ids": [
+    "dlmm-page-annual-reports-0030-p004",
+    "dlmm-page-annual-reports-0030-p006"
+  ],
+  "table_ids": [
+    "dlmm-table-annual-reports-0030-e046",
+    "dlmm-table-annual-reports-0030-e051",
+    "dlmm-table-annual-reports-0030-e053"
+  ],
+  "table_refs": [
+    {
+      "table_id": "dlmm-table-annual-reports-0030-e046",
+      "table_revision": "v0001",
+      "sha256": "b0444a9650e085d2b7338b22623f6741a5d6853cbdafd1e4907e682707e852c4",
+      "path": "structure/dlmm-table-annual-reports-0030-e046/revisions/v0001/table.json"
+    },
+    {
+      "table_id": "dlmm-table-annual-reports-0030-e051",
+      "table_revision": "v0001",
+      "sha256": "d32b57dc4632f7652ded7d05e5d87c422640a8b18ada7f24f253195debe52ca2",
+      "path": "structure/dlmm-table-annual-reports-0030-e051/revisions/v0001/table.json"
+    },
+    {
+      "table_id": "dlmm-table-annual-reports-0030-e053",
+      "table_revision": "v0001",
+      "sha256": "112732b0b0773a401a4dd0cab30b0a152a624aea072b76662043a05ff12fd45e",
+      "path": "structure/dlmm-table-annual-reports-0030-e053/revisions/v0001/table.json"
+    }
+  ]
+}

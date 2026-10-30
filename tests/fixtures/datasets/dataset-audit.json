@@ -1,0 +1,18 @@
+{
+  "totals": {
+    "declared_pages": 1849,
+    "documents": 80,
+    "elements": 25760,
+    "empty_ocr_texts": 163,
+    "multi_page_support_questions": 427,
+    "ocr_elements": 25760,
+    "pages": 1849,
+    "questions": 1559
+  },
+  "issues": {
+    "bbox_outside_or_degenerate": {
+      "count": 50
+    }
+  },
+  "json_snapshot_sha256": "03dae26ef94b3d14c5a9d8c1f7cefec2ee54e1f15a6d967493a91001c576fa67"
+}

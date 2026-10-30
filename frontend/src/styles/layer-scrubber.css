@@ -1,0 +1,80 @@
+/* Layer scrubber: layer track (or rollout interval) and head cells under the page. */
+.docattentionlens-layer-scrubber {
+  display:flex;align-items:center;gap:16px;min-height:50px;padding:0 12px;box-sizing:border-box;min-width:0;
+  background:var(--docattentionlens-surface, #1d191a);color:var(--docattentionlens-ink, inherit);border-top:1px solid var(--docattentionlens-line, #57484b);
+  font-size:13px;line-height:1.2;
+}
+.docattentionlens-layer-scrubber.is-disabled {color:var(--docattentionlens-muted, #bbadaf);}
+.docattentionlens-layer-scrubber :focus-visible {outline:2px solid var(--docattentionlens-focus, var(--docattentionlens-accent, #ff5365));outline-offset:1px;}
+
+.docattentionlens-scrubber-label,.docattentionlens-scrubber-of,.docattentionlens-scrubber-hint,.docattentionlens-scrubber-range-note,.docattentionlens-scrubber-reason {
+  font-family:var(--docattentionlens-font-mono, Consolas, monospace);font-size:11px;font-variant-numeric:tabular-nums;color:var(--docattentionlens-muted, #bbadaf);
+}
+.docattentionlens-scrubber-label {text-transform:uppercase;letter-spacing:.06em;flex:none;}
+
+/* Layer */
+.docattentionlens-scrubber-layer {display:flex;align-items:center;gap:8px;flex:1 1 auto;min-width:160px;}
+.docattentionlens-scrubber-track {
+  position:relative;flex:1 1 auto;min-width:80px;height:26px;cursor:pointer;touch-action:none;user-select:none;border-radius:2px;
+}
+.docattentionlens-scrubber-track[aria-disabled="true"],.is-disabled .docattentionlens-scrubber-track {cursor:default;opacity:.55;}
+.docattentionlens-scrubber-bars {display:flex;align-items:flex-end;gap:1px;height:100%;}
+.docattentionlens-scrubber-bar {flex:1 1 0;min-width:1px;height:100%;border-radius:2px 2px 0 0;background:var(--docattentionlens-line, #57484b);}
+.docattentionlens-scrubber-bar.is-before,.docattentionlens-scrubber-bar.is-in-range {background:color-mix(in srgb, var(--docattentionlens-accent, #ff5365) 35%, var(--docattentionlens-line, #57484b));}
+.docattentionlens-scrubber-bar.is-current {background:var(--docattentionlens-accent, var(--docattentionlens-action, #ff5365));}
+
+.docattentionlens-scrubber-handle {
+  position:absolute;top:-3px;bottom:-3px;width:6px;transform:translateX(-50%);border-radius:2px;cursor:ew-resize;
+  background:var(--docattentionlens-accent, var(--docattentionlens-action, #ff5365));box-shadow:0 0 0 1px var(--docattentionlens-surface, #1d191a);
+}
+.docattentionlens-scrubber-range-note {white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;}
+.docattentionlens-scrubber-range-note.is-warning {color:var(--docattentionlens-error, #ffadb6);white-space:normal;}
+.docattentionlens-scrubber-link {
+  background:none;border:0;padding:0;font:inherit;font-size:11px;color:var(--docattentionlens-accent, #ff5365);text-decoration:underline;cursor:pointer;
+}
+.docattentionlens-scrubber-link:disabled {color:var(--docattentionlens-muted, #bbadaf);cursor:default;}
+
+/* Numeric readouts: the select is the value, "/ 35" the bound. */
+.docattentionlens-scrubber-readout {display:inline-flex;align-items:center;gap:4px;flex:none;}
+.docattentionlens-scrubber-readout select {
+  height:24px;padding:0 2px;border:1px solid var(--docattentionlens-line, #57484b);border-radius:2px;background:transparent;color:inherit;
+  font-family:var(--docattentionlens-font-mono, Consolas, monospace);font-size:11px;font-variant-numeric:tabular-nums;
+}
+.docattentionlens-scrubber-readout select option {background:var(--docattentionlens-surface, #1d191a);color:var(--docattentionlens-ink, inherit);}
+
+/* Head */
+.docattentionlens-scrubber-head {display:flex;align-items:center;gap:8px;flex:0 1 auto;min-width:0;}
+.docattentionlens-scrubber-cells {display:flex;gap:2px;min-width:0;overflow-x:auto;scrollbar-width:none;}
+.docattentionlens-scrubber-cell {
+  min-width:22px;height:22px;padding:0 4px;border:1px solid var(--docattentionlens-line, #57484b);border-radius:2px;background:transparent;color:inherit;
+  font-family:var(--docattentionlens-font-mono, Consolas, monospace);font-size:11px;font-variant-numeric:tabular-nums;cursor:pointer;flex:none;
+}
+.docattentionlens-scrubber-cell:hover:not(:disabled) {border-color:var(--docattentionlens-muted, #bbadaf);}
+.docattentionlens-scrubber-cell[aria-checked="true"],.docattentionlens-scrubber-cell[aria-pressed="true"] {
+  background:var(--docattentionlens-wash, #392327);border-color:var(--docattentionlens-accent, #ff5365);color:var(--docattentionlens-ink, inherit);
+}
+.docattentionlens-scrubber-cell:disabled {cursor:default;opacity:.55;}
+.docattentionlens-scrubber-range-input {width:120px;accent-color:var(--docattentionlens-accent, #ff5365);}
+
+.docattentionlens-scrubber-reason {flex:0 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.docattentionlens-scrubber-hint {margin-left:auto;flex:none;white-space:nowrap;}
+
+/* Phone: the layer track fills its row; heads use the compact select. */
+@media (max-width:899px) {
+  .docattentionlens-layer-scrubber {flex-wrap:wrap;gap:4px 12px;padding:4px 12px;}
+  .docattentionlens-scrubber-layer {flex:1 1 100%;min-width:0;}
+  .docattentionlens-scrubber-layer.is-range {flex-wrap:wrap;}
+  .docattentionlens-scrubber-layer.is-range .docattentionlens-scrubber-track {flex-basis:100%;order:1;}
+  .docattentionlens-scrubber-cells,.docattentionlens-scrubber-range-input {display:none;}
+  .docattentionlens-scrubber-hint {display:none;}
+}
+
+/* At 900 px and wider the head cells are the head control: the head select stays in the accessibility tree
+   and the tab order, drawn only while focused, so the head row reads as cells only. */
+@media (min-width:900px) {
+  .docattentionlens-scrubber-head {position:relative;}
+  .docattentionlens-scrubber-head:not(.is-compact)>.docattentionlens-scrubber-readout {position:absolute;left:0;top:0;width:1px;height:1px;overflow:hidden;opacity:0;white-space:nowrap;}
+  .docattentionlens-scrubber-head:not(.is-compact)>.docattentionlens-scrubber-readout:focus-within {position:static;width:auto;height:auto;overflow:visible;opacity:1;}
+  .docattentionlens-scrubber-layer .docattentionlens-scrubber-readout select {border-color:transparent;}
+  .docattentionlens-scrubber-layer .docattentionlens-scrubber-readout select:hover,.docattentionlens-scrubber-layer .docattentionlens-scrubber-readout select:focus-visible {border-color:var(--docattentionlens-line, #57484b);}
+}

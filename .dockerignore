@@ -1,0 +1,27 @@
+# Only application sources and locked build inputs enter production builds.
+**
+!backend/
+!backend/pyproject.toml
+!backend/requirements.lock
+!backend/requirements-gpu.lock
+!backend/Dockerfile
+!backend/Dockerfile.gpu
+!backend/src/
+!backend/src/**
+!library/
+!library/pyproject.toml
+!library/src/
+!library/src/**
+!frontend/
+!frontend/package.json
+!frontend/package-lock.json
+!frontend/Dockerfile
+!frontend/nginx.conf
+!frontend/index.html
+!frontend/tsconfig.json
+!frontend/vite.config.ts
+!frontend/src/
+!frontend/src/**
+**/__pycache__
+**/*.pyc
+**/*.egg-info

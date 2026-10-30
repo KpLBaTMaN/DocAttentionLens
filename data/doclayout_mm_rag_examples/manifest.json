@@ -1,0 +1,21 @@
+{
+  "total_pages": 8,
+  "total_annotations": 29,
+  "total_elements": 100,
+  "domains": {
+    "annual_reports": {
+      "document_count": 1,
+      "total_pages": 8,
+      "total_annotations": 29,
+      "total_elements": 100
+    }
+  },
+  "finalized_only": true,
+  "example_of": {
+    "dataset": "doclayout_mm_rag_bench",
+    "domain": "annual_reports",
+    "document_id": 30,
+    "filename": "NASDAQ_AROW_2019",
+    "copied": "Document record, page images, PDF, layout, OCR and question files are byte-identical to the benchmark."
+  }
+}
